@@ -1,0 +1,140 @@
+
+Logfile opened on Fri Apr 17 00:21:19 2020
+
+frag_grenade_mp: WEAPON_FRAGGRENADE
+frag_grenade_short_mp: WEAPON_FRAGGRENADE
+smoke_grenade_mp: WEAPON_SMOKEGRENADE
+flash_grenade_mp: WEAPON_FLASHGRENADE
+briefcase_bomb_mp: WEAPON_BRIEFCASE_BOMB_PLANT
+briefcase_bomb_defuse_mp: WEAPON_BRIEFCASE_BOMB_DEFUSE
+-----------------------------------
+Working directory: C:\Users\Martin\Desktop\GitHub\CoD_Dev_Untitled\main
+Resolving Filter Server... 
+HTTPRequest: Open URL http://filter.cod4x.me:80/filter/
+Connecting to: filter.cod4x.me:80
+Resolved filter.cod4x.me:80 to: 188.165.57.239:80
+SV_DirectConnect()
+Connecting player #0 has an unknown GUID
+Going from CS_FREE to CS_CONNECTED for  (num 0 guid "")
+No stats found, zeroing out stats buffer
+Huffman Took 1 Milliseconds
+Unknown connectionless packet command: .
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+----------------------
+Game: G_SetupWeaponDef
+----------------------
+-----------------------------------
+Script tried to precache the player status icon 'hud_status_dead' more than once
+Script tried to precache the player status icon 'hud_status_connecting' more than once
+Script tried to precache the player status icon 'compassping_friendlyfiring_mp' more than once
+Script tried to precache the player status icon 'compassping_enemy' more than once
+Script tried to precache the menu 'quickcommands' more than once
+Script tried to precache the menu 'quickstatements' more than once
+Script tried to precache the menu 'quickresponses' more than once
+Script tried to precache the menu 'quickpromod' more than once
+Script tried to precache the menu 'quickpromodgfx' more than once
+Script tried to precache the menu 'scoreboard' more than once
+Script tried to precache the menu 'team_marinesopfor' more than once
+Script tried to precache the menu 'class_marines' more than once
+Script tried to precache the menu 'changeclass_marines_mw' more than once
+Script tried to precache the menu 'class_opfor' more than once
+Script tried to precache the menu 'changeclass_opfor_mw' more than once
+Script tried to precache the menu 'class' more than once
+Script tried to precache the menu 'changeclass_mw' more than once
+Script tried to precache the menu 'changeclass_offline' more than once
+Script tried to precache the menu 'callvote' more than once
+Script tried to precache the menu 'muteplayer' more than once
+Script tried to precache the menu 'shoutcast' more than once
+Script tried to precache the menu 'shoutcast_map' more than once
+Script tried to precache the menu 'shoutcast_setup' more than once
+Script tried to precache the menu 'shoutcast_setup_binds' more than once
+Script tried to precache the menu 'echo' more than once
+Script tried to precache the menu 'demo' more than once
+Koreninc : dropped gamestate, resending
+Received packet 0 of stats data
+Unknown connectionless packet command: .
+Received packet 1 of stats data
+Received packet 2 of stats data
+Received packet 3 of stats data
+Received packet 4 of stats data
+Received packet 5 of stats data
+Received packet 6 of stats data
+Unknown connectionless packet command: .
+Koreninc : dropped gamestate, resending
+SV_SendClientGameState() for Koreninc
+Going from CS_CONNECTED to CS_CLIENTLOADING for Koreninc
+Sending 11969 bytes in gamestate to client: 0
+Retrieving global configuration... 
+HTTPRequest: Open URL https://raw.githubusercontent.com:443/callofduty4x/CoD4x_Server/master/globalconfig.cfg
+Connecting to: raw.githubusercontent.com:443
+Resolved raw.githubusercontent.com:443 to: 151.101.240.133:443
+CL_ParseGamestateLegacy():
+Loaded zone 'mp_crash'
+frag_grenade_mp: WEAPON_FRAGGRENADE
+frag_grenade_short_mp: WEAPON_FRAGGRENADE
+smoke_grenade_mp: WEAPON_SMOKEGRENADE
+flash_grenade_mp: WEAPON_FLASHGRENADE
+briefcase_bomb_mp: WEAPON_BRIEFCASE_BOMB_PLANT
+briefcase_bomb_defuse_mp: WEAPON_BRIEFCASE_BOMB_DEFUSE
+Connected to a pure server.
+Setting state to CA_LOADING in CL_DownloadsComplete
+Setting state to CA_LOADING in CL_InitCGame
+LOADING... collision map
+LOADING... graphics
+LOADING... maps/mp/mp_crash.d3dbsp
+LOADING... game media
+LOADING...  - textures
+LOADING...  - models
+LOADING...  - items
+LOADING...  - inline models
+LOADING...  - server models
+LOADING...  - game media done
+LOADING... clients
+CL_InitCGame:  0.04 seconds
+Com_TouchMemory: 0 msec. Using sum: 192911079
+Hiding channel: gamenotify
+Hiding channel: obituary
+Adding channel: gamenotify
+Adding channel: obituary
+Hiding channel: boldgame
+Adding channel: boldgame
+Hiding channel: subtitle
+Adding channel: subtitle
+No channels added or hidden
+NET_EnableQoSForHost: No IPv4 socket or remote host.
+Going from CS_CLIENTLOADING to CS_ACTIVE for Koreninc
+Giving Koreninc a 999 ping - >999 calculated ping:
+WARNING: no alias prefix defined, using default
+Playing smoke grenades at time 1600
+WARNING: no alias prefix defined, using default
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 120450
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 230050
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.quitting...
+----- CL_Shutdown -----
+Successfully wrote stats data
+Error: Sub_57B5C0: Failed to get line info!
+-----------------------
+----- Server Shutdown -----
+==== ShutdownGame (1) ====
+0:Koreninc EXE_DISCONNECTED
+---------------------------
+Unloaded fastfile mp_crash
+Unloaded fastfile mp_crash_load
+Unloaded fastfile localized_common_mp
+Unloaded fastfile common_mp
+Unloaded fastfile mod
+Unloaded fastfile localized_code_post_gfx_mp
+Unloaded fastfile code_post_gfx_mp
