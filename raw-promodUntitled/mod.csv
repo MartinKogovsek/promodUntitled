@@ -109,9 +109,27 @@ rawfile,promod/timeout.gsc
 
 rawfile,shock/damage_mp.shock
 
+material,weapon_knife
+
 sound,promod,,all_mp
 
 stringtable,promod/customStatsTable.csv
 stringtable,promod/destructible.csv
 
+weapon,mp/knife_mp
+
+xanim,viewmodel_sog_knife_ads_down
+xanim,viewmodel_sog_knife_ads_up
+xanim,viewmodel_sog_knife_idle
+xanim,viewmodel_sog_knife_idle_loop
+xanim,viewmodel_sog_knife_melee_stick
+xanim,viewmodel_sog_knife_melee_swipe
+xanim,viewmodel_sog_knife_pullout
+xanim,viewmodel_sog_knife_pullout_quick
+xanim,viewmodel_sog_knife_putaway
+xanim,viewmodel_sog_knife_putaway_quick
+xanim,viewmodel_sog_knife_pullout_quick
+xanim,viewmodel_sog_knife_sprint_loop
+
 xmodel,com_floodlight_on
+

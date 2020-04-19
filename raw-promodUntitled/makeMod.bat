@@ -4,7 +4,7 @@ set COMPILEDIR=%CD%
 color f5
 title ModBuilder / %modname%
 
-set iwdname=z_pR
+set iwdname=z_pU
 
 :MAKEOPTIONS
 cls
