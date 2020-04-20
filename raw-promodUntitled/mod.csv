@@ -48,6 +48,7 @@ rawfile,maps/mp/_load.gsc
 rawfile,maps/mp/gametypes/_class.gsc
 rawfile,maps/mp/gametypes/_gameobjects.gsc
 rawfile,maps/mp/gametypes/_globallogic.gsc
+rawfile,maps/mp/gametypes/_globallogic_utils.gsc
 rawfile,maps/mp/gametypes/_healthoverlay.gsc
 rawfile,maps/mp/gametypes/_hud.gsc
 rawfile,maps/mp/gametypes/_hud_message.gsc
@@ -68,6 +69,9 @@ rawfile,maps/mp/gametypes/koth.gsc
 rawfile,maps/mp/gametypes/sab.gsc
 rawfile,maps/mp/gametypes/sd.gsc
 rawfile,maps/mp/gametypes/war.gsc
+
+rawfile,maps/mp/gametypes/_finalkillcam.gsc
+rawfile,maps/mp/gametypes/_finalkillcam_music.gsc
 
 rawfile,maps/mp/mp_backlot.gsc
 rawfile,maps/mp/mp_bloc.gsc

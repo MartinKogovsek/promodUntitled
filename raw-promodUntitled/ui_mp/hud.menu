@@ -1028,45 +1028,47 @@
 	}
 
 	menuDef
-	{
-		name			"killcam"
-		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
-		fullScreen		0
-		visible			when ( inkillcam() );
+    {
+        name            "killcam"
+        rect            0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+        fullScreen        0
+        visible         when ( inkillcam() );
 
+		/*
+		itemDef
+        {
+            style            	WINDOW_STYLE_SHADER
+            rect            	0 380 1000 60 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+            background        	"black"
+            forecolor        	.49 .05 .03 0.5
+            visible           	1
+            decoration
+        }
+		itemDef
+        {
+            rect        	0 205 1 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+            origin        	0 0
+            exp text    	( "FINAL KILLCAM" );
+            textfont    	UI_FONT_OBJECTIVE
+            textscale    	0.90
+            textalign    	ITEM_ALIGN_CENTER
+            textstyle    	ITEM_TEXTSTYLE_SHADOWEDMORE
+            visible     	1
+            decoration
+        }
+		
+		//logo text 
 		itemDef
 		{
+			rect			1 -62 160 160 HORIZONTAL_ALIGN_LEFT VERTICAL_ALIGN_TOP
+			forecolor		0 0 0 .6
 			style			WINDOW_STYLE_SHADER
-			rect			0 0 640 112 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
-			background		"white"
-			forecolor		0.49 0.05 0.03 0.5
-			visible			1
+			background		"text_logo"
+			visible 		1
 			decoration
-		}
-
-		itemDef
-		{
-			style			WINDOW_STYLE_SHADER
-			rect			0 368 640 112 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
-			background		"white"
-			forecolor		0.49 0.05 0.03 0.5
-			visible			1
-			decoration
-		}
-
-		itemDef
-		{
-			rect			0 45 1 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_TOP
-			origin			0 0
-			exp				text( "KILLCAM" );
-			textfont		UI_FONT_OBJECTIVE
-			textscale		0.9
-			textalign		ITEM_ALIGN_CENTER
-			textstyle		ITEM_TEXTSTYLE_SHADOWEDMORE
-			visible			1
-			decoration
-		}
-	}
+		} 
+		*/
+    }
 
 	menuDef
 	{

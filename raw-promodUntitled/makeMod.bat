@@ -122,7 +122,7 @@ goto :MAKEOPTIONS
 :startmod
 cls
 cd ..\..\
-START server.exe +set developer 1 +g_gametype sd +set fs_game mods/%modname% +devmap mp_crash 
+START server.exe +set developer 1 +g_gametype sd +set fs_game mods/%modname% +devmap mp_shipment +set sv_punkbuster 0
 cd %COMPILEDIR%
 pause
 goto :MAKEOPTIONS
