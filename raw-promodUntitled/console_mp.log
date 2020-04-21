@@ -1,17 +1,17 @@
 
-Logfile opened on Mon Apr 20 18:32:39 2020
+Logfile opened on Tue Apr 21 11:31:52 2020
 
-Waited 20 msec for asset 'body_mp_sas_urban_sniper' of type 'xmodel'.
-Waited 3 msec for asset 'body_mp_sas_urban_support' of type 'xmodel'.
+Waited 24 msec for asset 'body_mp_sas_urban_sniper' of type 'xmodel'.
+Waited 2 msec for asset 'body_mp_sas_urban_support' of type 'xmodel'.
 Waited 4 msec for asset 'body_mp_sas_urban_assault' of type 'xmodel'.
 Waited 2 msec for asset 'body_mp_sas_urban_recon' of type 'xmodel'.
 Waited 4 msec for asset 'body_mp_sas_urban_specops' of type 'xmodel'.
 Waited 2 msec for asset 'head_mp_opforce_justin' of type 'xmodel'.
 Waited 4 msec for asset 'body_mp_opforce_support' of type 'xmodel'.
-Waited 4 msec for asset 'body_mp_opforce_assault' of type 'xmodel'.
+Waited 2 msec for asset 'body_mp_opforce_assault' of type 'xmodel'.
+Waited 2 msec for asset 'head_mp_opforce_headwrap' of type 'xmodel'.
 Waited 2 msec for asset 'body_mp_opforce_eningeer' of type 'xmodel'.
-Waited 2 msec for asset 'head_mp_opforce_gasmask' of type 'xmodel'.
-Waited 2 msec for asset 'body_mp_opforce_cqb' of type 'xmodel'.
+Waited 3 msec for asset 'body_mp_opforce_cqb' of type 'xmodel'.
 frag_grenade_mp: WEAPON_FRAGGRENADE
 frag_grenade_short_mp: WEAPON_FRAGGRENADE
 smoke_grenade_mp: WEAPON_SMOKEGRENADE
@@ -24,8 +24,8 @@ Working directory: C:\Users\Martin\Desktop\GitHub\CoD_Dev_Untitled\main
 PunkBuster Client: Changing PunkBuster homepath to [C:\Users\Martin\AppData\Local\PunkBuster\COD4\pb\]
 PunkBuster Client: Warning: Corrupted Interface
 PunkBuster Client: Error: Failed to locate resource (A)
-PunkBuster Client: Attempting to resolve master5.evenbalance.com
-PunkBuster Client: Resolved to [45.56.97.81] (0)
+PunkBuster Client: Attempting to resolve master3.evenbalance.com
+PunkBuster Client: Resolved to [72.167.223.241] (0)
 PunkBuster Client: PunkBuster Client (v2.318 | A0) Enabled
 Resolving Filter Server... 
 HTTPRequest: Open URL http://filter.cod4x.me:80/filter/
@@ -82,7 +82,6 @@ PunkBuster Client: Error: Unable to set cl_guid
 PunkBuster Client: Game Version [CoD4 MP 1.8 win_mingw-x86-debug Aug 23 2017]
 PunkBuster Client: Not Connected to a Server
 Received packet 5 of stats data
-Unknown connectionless packet command: .
 Received packet 6 of stats data
 Kolegica : dropped gamestate, resending
 SV_SendClientGameState() for Kolegica
@@ -122,7 +121,7 @@ Error: Could not load fx "props/car_glass_brakelight".
 LOADING...  - game media done
 LOADING... clients
 CL_InitCGame:  0.04 seconds
-Com_TouchMemory: 0 msec. Using sum: -1437279818
+Com_TouchMemory: 0 msec. Using sum: -1449207370
 Hiding channel: gamenotify
 Hiding channel: obituary
 Adding channel: gamenotify
@@ -136,7 +135,7 @@ NET_EnableQoSForHost: No IPv4 socket or remote host.
 PunkBuster Client: Connected to Server loopback
 Going from CS_CLIENTLOADING to CS_ACTIVE for Kolegica
 WARNING: no alias prefix defined, using default
-Playing smoke grenades at time 1600
+Playing smoke grenades at time 1550
 WARNING: no alias prefix defined, using default
 Resolving cod4master.activision.com
 cod4master.activision.com resolved to 185.34.107.159:20810
@@ -149,22 +148,161 @@ Received packet 3 of stats data
 Received packet 4 of stats data
 Received packet 5 of stats data
 Received packet 6 of stats data
-Playing smoke grenades at time 22850
+Playing smoke grenades at time 25203
 ==== ShutdownGame (0) ====
 ------- Game Initialization -------
 gamename: Call of Duty 4
 gamedate: Jun 18 2008
 -----------------------------------
-Playing smoke grenades at time 30300
-Playing smoke grenades at time 30300
-SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 40451
+Playing smoke grenades at time 32650
+Playing smoke grenades at time 32650
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 44603
 ==== ShutdownGame (0) ====
 ------- Game Initialization -------
 gamename: Call of Duty 4
 gamedate: Jun 18 2008
 -----------------------------------
-Playing smoke grenades at time 47900
-Playing smoke grenades at time 47900
+Playing smoke grenades at time 52050
+Playing smoke grenades at time 52050
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 71103
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 78550
+Playing smoke grenades at time 78550
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 88202
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 95650
+Playing smoke grenades at time 95650
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 106400
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 113850
+Playing smoke grenades at time 113850
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 123503
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 130950
+Playing smoke grenades at time 130950
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 141951
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 149400
+Playing smoke grenades at time 149400
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 159900
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 167350
+Playing smoke grenades at time 167350
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 178455
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 185900
+Playing smoke grenades at time 185900
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Playing smoke grenades at time 199452
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 206900
+Playing smoke grenades at time 206900
+Playing smoke grenades at time 218000
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 225450
+Playing smoke grenades at time 225450
+Playing smoke grenades at time 234404
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 241850
+Playing smoke grenades at time 241850
+PunkBuster Client: No Master Query Sent - DNS has not yet resolved for MASTER5.EVENBALANCE.COM
+Playing smoke grenades at time 253350
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 260800
+Playing smoke grenades at time 260800
+Playing smoke grenades at time 269950
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 277400
+Playing smoke grenades at time 277400
+Playing smoke grenades at time 286755
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 294200
+Playing smoke grenades at time 294200
+Playing smoke grenades at time 304200
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 311650
+Playing smoke grenades at time 311650
+Playing smoke grenades at time 320500
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 327950
+Playing smoke grenades at time 327950
+Playing smoke grenades at time 340702
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 348150
+Playing smoke grenades at time 348150
+Playing smoke grenades at time 357852
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 365300
+Playing smoke grenades at time 365300
+Playing smoke grenades at time 375103
+Playing smoke grenades at time 384603
 quitting...
 ----- CL_Shutdown -----
 Error: Sub_57B5C0: Failed to get line info!

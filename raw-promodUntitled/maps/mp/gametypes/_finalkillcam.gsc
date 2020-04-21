@@ -14,11 +14,8 @@ finalKillcamWaiter()
 postRoundFinalKillcam()
 {
 	level notify( "play_final_killcam" );
+	level thread endRound();
 
-	if(game["roundsplayed"] != 1){
-		level notify( "play_final_killcam" );
-		level thread endRound();
-	}  
 	maps\mp\gametypes\_globallogic_utils::resetOutcomeForAllPlayers();
 	finalKillcamWaiter();	
 }
@@ -34,6 +31,7 @@ startFinalKillcam(
 	attacker,
 	victim
 )
+
 {
 	if(attackerNum < 0)
 		return;
@@ -243,6 +241,7 @@ finalKillcam()
 	self.kcText destroy();
 	self.kcBck destroy();
 	self.kcSongText destroy();
+	self.kcSongBck destroy();
 
 	self endKillcam();
 }
@@ -336,7 +335,7 @@ addKillcamKiller(attacker,victim)
 	self.kcText.alignY = "middle";
 	self.kcText.horzAlign = "center";
 	self.kcText.vertAlign = "middle";
-	self.kcText.y = 170;
+	self.kcText.y = 165;
 	self.kcText.alpha = 0.8;
 	self.kcText.fontScale = 3;
 	self.kcText.font = "objective";
@@ -359,8 +358,6 @@ addKillcamKiller(attacker,victim)
 
 	self.kcSongText = newHudElem();
 	self.kcSongText.archived = false;
-	self.kcSongText SetText("Out of bounds!");
-
 	switch( level.kcSong ) 	 
 	{
 	case 1:
