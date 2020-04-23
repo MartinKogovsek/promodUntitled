@@ -86,7 +86,27 @@ waitKillcamTime()
 	self endon("disconnect");
 	self endon("end_finalkillcam");
 
-	wait(self.killcamlength - 0.07);
+	wait((self.killcamlength - 0.07) - 0.5);
+
+	if(level.roundLimit != game["roundsplayed"]){
+		self.balcks = newHudElem();
+		self.balcks.archived = false;
+		self.balcks.alignx = "center";
+		self.balcks.alignY = "middle";
+		self.balcks.horzAlign = "center";
+		self.balcks.vertAlign = "middle";
+		self.balcks.x = 0;
+		self.balcks.y = 0;
+		self.balcks setShader("black", 1000, 1000);
+		self.balcks.Alpha = 0;
+		self.balcks.foreGround = true;
+		self.balcks.hideWhenInMenu = true;
+		self.balcks FadeOverTime(0.5);
+		self.balcks.Alpha = 1;
+	}
+
+	wait 0.5;
+
 	self notify("end_finalkillcam");
 }
 
@@ -234,14 +254,16 @@ finalKillcam()
 	self thread waitFinalKillcamSlowdown( killcamstarttime );
 
 	self waittill("end_finalkillcam");
-	
-	self.villain destroy();
-	self.versus destroy();
-	self.victim destroy();
-	self.kcText destroy();
-	self.kcBck destroy();
-	self.kcSongText destroy();
-	self.kcSongBck destroy();
+
+	if(level.roundLimit == game["roundsplayed"]){
+		self.villain destroy();
+		self.versus destroy();
+		self.victim destroy();
+		self.kcText destroy();
+		self.kcBck destroy();
+		self.kcSongText destroy();
+		self.kcSongBck destroy();
+	}
 
 	self endKillcam();
 }

@@ -1,8 +1,13 @@
-.gitignore
-promodUntitled/
 raw-promodUntitled/console_mp.log
 raw-promodUntitled/games_mp.log
 promodUntitled/enterleave.log
 promodUntitled/games_mp.log
 promodUntitled/qconsole.log
 promodUntitled/qconsole.log.old
+raw-promodUntitled/games_mp.log
+raw-promodUntitled/console_mp.log
+raw-promodUntitled/missingasset.csv
+promodUntitled/runDedicatedServer.bat
+raw-promodUntitled/console_mp.log
+raw-promodUntitled/games_mp.log
+raw-promodUntitled/missingasset.csv

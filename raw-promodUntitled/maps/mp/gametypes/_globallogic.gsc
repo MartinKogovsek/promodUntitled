@@ -54,6 +54,8 @@ init()
 
 	precacheShader("popmenu_bg");
 
+	precacheItem("knife_mp");
+
 	precacheModel("tag_origin");
 	precacheShader("faction_128_usmc");
 	precacheShader("faction_128_arab");
@@ -351,17 +353,21 @@ spawnPlayer()
 removeWeapons()
 {
 	self endon("disconnect");
-	self maps\mp\gametypes\_class::giveLoadout(self.team, self.class);
-	wait 0.05;
-	attachment = "";
-	if (self.pers[self.pers["class"]]["loadout_secondary_attachment"] == "silencer") attachment = "_silencer";
-	sidearmWeapon = self.pers[self.pers["class"]]["loadout_secondary"] + attachment + "_mp";
+	self maps\mp\gametypes\_class::giveLoadout(self.team,self.class);
+	wait 0.05;attachment="";
+	if(self.pers[self.pers["class"]]["loadout_secondary_attachment"]=="silencer")attachment="_silencer";
+	sidearmWeapon=self.pers[self.pers["class"]]["loadout_secondary"]+attachment+"_mp";
 	self takeAllWeapons();
-	self giveWeapon(sidearmWeapon, 0);
-	self setweaponammoclip(sidearmWeapon, 0);
-	self setweaponammostock(sidearmWeapon, 0);
+	self giveWeapon(sidearmWeapon,0);
+	self setweaponammoclip(sidearmWeapon,0);
+	self setweaponammostock(sidearmWeapon,0);
 	self switchtoWeapon(sidearmWeapon);
 	self setclientdvar("g_compassShowEnemies", 1);
+	
+	self takeAllWeapons();
+    self giveWeapon("knife_mp");
+	self givemaxammo("knife_mp");
+	self switchtoweapon( "knife_mp" );	
 }
 
 spawnSpectator(origin, angles)

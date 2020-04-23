@@ -142,11 +142,11 @@ setMode( mode )
 	game["CUSTOM_MODE"] = 0;
 	game["LAN_MODE"] = 0;
 	game["HARDCORE_MODE"] = 0;
-	game["PROMOD_STRATTIME"] = 6;
-	game["PROMOD_MODE_HUD"] = "";
-	game["PROMOD_MATCH_MODE"] = "";
-	game["PROMOD_PB_OFF"] = 0;
-	game["PROMOD_KNIFEROUND"] = 0;
+	game["PROMOD_STRATTIME"] = 3;
+	game["PROMOD_MODE_HUD"] = "custom_public";
+	game["PROMOD_MATCH_MODE"] = "custom_public";
+	game["PROMOD_PB_OFF"] = 1;
+	game["PROMOD_KNIFEROUND"] = 1;
 	game["SCORES_ATTACK"] = 0;
 	game["SCORES_DEFENCE"] = 0;
 
