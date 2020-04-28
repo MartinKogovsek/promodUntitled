@@ -17,6 +17,7 @@ menufile,ui_mp/scriptmenus/shoutcast_setup.menu
 menufile,ui_mp/scriptmenus/shoutcast_setup_binds.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor_flipped.menu
+menufile,ui_mp/scriptmenus/vote.menu
 
 rawfile,maps/createfx/mp_backlot_fx.gsc
 rawfile,maps/createfx/mp_bloc_fx.gsc
@@ -69,9 +70,9 @@ rawfile,maps/mp/gametypes/koth.gsc
 rawfile,maps/mp/gametypes/sab.gsc
 rawfile,maps/mp/gametypes/sd.gsc
 rawfile,maps/mp/gametypes/war.gsc
-
 rawfile,maps/mp/gametypes/_finalkillcam.gsc
 rawfile,maps/mp/gametypes/_finalkillcam_music.gsc
+rawfile,maps/mp/gametypes/_mapvote.gsc
 
 rawfile,maps/mp/mp_backlot.gsc
 rawfile,maps/mp/mp_bloc.gsc
@@ -114,6 +115,26 @@ rawfile,promod/timeout.gsc
 rawfile,shock/damage_mp.shock
 
 material,weapon_knife
+
+material,loadscreen_mp_backlot
+material,loadscreen_mp_bloc
+material,loadscreen_mp_bog
+material,loadscreen_mp_broadcast
+material,loadscreen_mp_cargoship
+material,loadscreen_mp_citystreets
+material,loadscreen_mp_convoy
+material,loadscreen_mp_countdown
+material,loadscreen_mp_crash
+material,loadscreen_mp_crossfire
+material,loadscreen_mp_dusk
+material,loadscreen_mp_farm
+material,loadscreen_mp_hill
+material,loadscreen_mp_overgrown
+material,loadscreen_mp_pipeline
+material,loadscreen_mp_shipment
+material,loadscreen_mp_showdown
+material,loadscreen_mp_strike
+material,loadscreen_mp_vacant
 
 sound,promod,,all_mp
 

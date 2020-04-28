@@ -1,7 +1,1 @@
-fx,smoke/car_damage_whitesmoke
-fx,smoke/car_damage_blacksmoke
-fx,smoke/car_damage_blacksmoke_fire
-fx,props/car_glass_large
-fx,props/car_glass_med
-fx,props/car_glass_headlight
-fx,props/car_glass_brakelight
+rawfile,server.cfg

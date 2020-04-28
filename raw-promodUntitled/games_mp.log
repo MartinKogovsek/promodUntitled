@@ -1898,3 +1898,633 @@
   6:22 P_A;;0;Kolegica;1;0;0;2000;0;0
   6:30 ShutdownGame:
   6:30 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;Roccat#tincxD
+  1:12 K;;0;allies;Roccat#tincxD;;-1;;Roccat#tincxD;none;100000;MOD_SUICIDE;none
+  1:21 ShutdownGame:
+  1:21 ------------------------------------------------------------
+  1:21 ------------------------------------------------------------
+  1:21 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:21 J;;0;Roccat#tincxD
+  2:06 Weapon;;0;Roccat#tincxD;knife_mp
+  3:03 P_P;;0;Roccat#tincxD
+  3:31 D;;0;allies;Roccat#tincxD;;-1;world;;none;1;MOD_FALLING;none
+  3:52 P_A;;0;Roccat#tincxD;2;0;0;0;0;0
+  4:29 ExitLevel: executed
+  4:29 ShutdownGame:
+  4:29 ------------------------------------------------------------
+  4:29 ------------------------------------------------------------
+  4:29 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  4:29 ShutdownGame:
+  4:29 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:21 D;;0;allies;tincxd;;-1;world;;none;18;MOD_FALLING;none
+  0:56 ShutdownGame:
+  0:56 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:15 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:25 ShutdownGame:
+  0:25 ------------------------------------------------------------
+  0:25 ------------------------------------------------------------
+  0:25 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:26 J;;0;tincxd
+  0:33 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:39 P_A;;0;tincxd;19;0;0;0;0;0
+  1:15 ExitLevel: executed
+  1:15 ShutdownGame:
+  1:15 ------------------------------------------------------------
+  1:15 ------------------------------------------------------------
+  1:15 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:15 ShutdownGame:
+  1:15 ------------------------------------------------------------
+  1:15 ------------------------------------------------------------
+  1:15 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:17 J;;0;tincxd
+  3:14 ShutdownGame:
+  3:14 ------------------------------------------------------------
+  3:14 ------------------------------------------------------------
+  3:14 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  3:14 J;;0;tincxd
+  3:55 ShutdownGame:
+  3:55 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:22 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:30 ShutdownGame:
+  0:30 ------------------------------------------------------------
+  0:30 ------------------------------------------------------------
+  0:30 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:31 J;;0;tincxd
+  0:35 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:43 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:52 ShutdownGame:
+  0:52 ------------------------------------------------------------
+  0:52 ------------------------------------------------------------
+  0:52 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:52 J;;0;tincxd
+  2:33 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  3:11 ShutdownGame:
+  3:11 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:14 D;;0;axis;tincxd;;-1;world;;none;72;MOD_FALLING;none
+  0:25 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:33 ShutdownGame:
+  0:33 ------------------------------------------------------------
+  0:33 ------------------------------------------------------------
+  0:33 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:34 J;;0;tincxd
+  0:45 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:51 P_A;;0;tincxd;8;0;0;0;0;0
+  1:27 ExitLevel: executed
+  1:27 ShutdownGame:
+  1:27 ------------------------------------------------------------
+  1:27 ------------------------------------------------------------
+  1:27 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash_snow\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:27 ShutdownGame:
+  1:27 ------------------------------------------------------------
+  1:27 ------------------------------------------------------------
+  1:27 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash_snow\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:28 J;;0;tincxd
+  1:45 ShutdownGame:
+  1:45 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:14 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:23 ShutdownGame:
+  0:23 ------------------------------------------------------------
+  0:23 ------------------------------------------------------------
+  0:23 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:23 J;;0;tincxd
+  0:27 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:34 P_A;;0;tincxd;1;0;0;0;0;0
+  0:55 ShutdownGame:
+  0:55 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:06 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:19 ------------------------------------------------------------
+  0:19 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:19 J;;0;tincxd
+  0:47 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:52 P_A;;0;tincxd;13;0;0;0;0;0
+  1:28 ExitLevel: executed
+  1:28 ShutdownGame:
+  1:28 ------------------------------------------------------------
+  1:28 ------------------------------------------------------------
+  1:28 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:29 ShutdownGame:
+  1:29 ------------------------------------------------------------
+  1:29 ------------------------------------------------------------
+  1:29 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:30 J;;0;tincxd
+  1:49 ShutdownGame:
+  1:49 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:08 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:21 ShutdownGame:
+  0:21 ------------------------------------------------------------
+  0:21 ------------------------------------------------------------
+  0:21 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:21 J;;0;tincxd
+  0:22 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:10 ExitLevel: executed
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  1:10 ------------------------------------------------------------
+  1:10 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_strike\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:11 ShutdownGame:
+  1:11 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:07 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:21 ShutdownGame:
+  0:21 ------------------------------------------------------------
+  0:21 ------------------------------------------------------------
+  0:21 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:21 J;;0;tincxd
+  0:22 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:10 ExitLevel: executed
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  1:10 ------------------------------------------------------------
+  1:10 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_citystreets\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:11 ShutdownGame:
+  1:11 ------------------------------------------------------------
+  1:11 ------------------------------------------------------------
+  1:11 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_citystreets\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:12 J;;0;tincxd
+  2:44 ShutdownGame:
+  2:44 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:10 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:19 ------------------------------------------------------------
+  0:19 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:19 J;;0;tincxd
+  0:21 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:32 P_A;;0;tincxd;6;0;0;0;0;0
+  1:08 ExitLevel: executed
+  1:08 ShutdownGame:
+  1:08 ------------------------------------------------------------
+  1:08 ------------------------------------------------------------
+  1:08 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crossfire\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crossfire\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 J;;0;tincxd
+  2:10 ShutdownGame:
+  2:10 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:07 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:20 ShutdownGame:
+  0:20 ------------------------------------------------------------
+  0:20 ------------------------------------------------------------
+  0:20 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:22 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:33 P_A;;0;tincxd;1;0;0;0;0;0
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_strike\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  1:10 ------------------------------------------------------------
+  1:10 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_strike\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:11 J;;0;tincxd
+  1:37 ShutdownGame:
+  1:37 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:08 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:21 ShutdownGame:
+  0:21 ------------------------------------------------------------
+  0:21 ------------------------------------------------------------
+  0:21 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:22 J;;0;tincxd
+  0:27 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:33 P_A;;0;tincxd;1;0;0;0;0;0
+  0:56 ShutdownGame:
+  0:56 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:04 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:19 ------------------------------------------------------------
+  0:19 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:21 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:17 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:26 ShutdownGame:
+  0:26 ------------------------------------------------------------
+  0:26 ------------------------------------------------------------
+  0:26 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:26 J;;0;tincxd
+  0:31 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:06 ShutdownGame:
+  1:06 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:04 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:19 ------------------------------------------------------------
+  0:19 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:22 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:32 P_A;;0;tincxd;3;0;0;0;0;0
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:05 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:17 ShutdownGame:
+  0:17 ------------------------------------------------------------
+  0:17 ------------------------------------------------------------
+  0:17 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:18 J;;0;tincxd
+  0:31 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:36 P_A;;0;tincxd;1;0;0;0;0;0
+  0:52 ShutdownGame:
+  0:52 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:07 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:20 ShutdownGame:
+  0:20 ------------------------------------------------------------
+  0:20 ------------------------------------------------------------
+  0:20 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:21 J;;0;tincxd
+  0:26 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:53 ShutdownGame:
+  0:53 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:06 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:21 ShutdownGame:
+  0:21 ------------------------------------------------------------
+  0:21 ------------------------------------------------------------
+  0:21 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:21 J;;0;tincxd
+  0:29 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:34 P_A;;0;tincxd;3;0;0;0;0;0
+  1:04 ShutdownGame:
+  1:04 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:04 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:19 ------------------------------------------------------------
+  0:19 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:21 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:32 P_A;;0;tincxd;6;0;0;0;0;0
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash_snow\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash_snow\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 J;;0;tincxd
+  1:27 ShutdownGame:
+  1:27 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:06 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:20 ShutdownGame:
+  0:20 ------------------------------------------------------------
+  0:20 ------------------------------------------------------------
+  0:20 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:22 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:33 P_A;;0;tincxd;5;0;0;0;0;0
+  0:51 ShutdownGame:
+  0:51 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:08 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:21 ShutdownGame:
+  0:21 ------------------------------------------------------------
+  0:21 ------------------------------------------------------------
+  0:21 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:22 J;;0;tincxd
+  0:26 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:11 ExitLevel: executed
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:06 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:20 ShutdownGame:
+  0:20 ------------------------------------------------------------
+  0:20 ------------------------------------------------------------
+  0:20 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:21 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  1:10 ------------------------------------------------------------
+  1:10 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_backlot\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:11 J;;0;tincxd
+  2:10 ShutdownGame:
+  2:10 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:15 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:23 ShutdownGame:
+  0:23 ------------------------------------------------------------
+  0:23 ------------------------------------------------------------
+  0:23 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:24 J;;0;tincxd
+  0:26 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:37 P_A;;0;tincxd;1;0;0;0;0;0
+  1:13 ExitLevel: executed
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:05 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:17 ShutdownGame:
+  0:17 ------------------------------------------------------------
+  0:17 ------------------------------------------------------------
+  0:17 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:18 J;;0;tincxd
+  0:19 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:07 ExitLevel: executed
+  1:07 ShutdownGame:
+  1:07 ------------------------------------------------------------
+  1:07 ------------------------------------------------------------
+  1:07 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:07 ShutdownGame:
+  1:07 ------------------------------------------------------------
+  1:07 ------------------------------------------------------------
+  1:07 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:08 J;;0;tincxd
+  1:54 D;;0;allies;tincxd;;-1;world;;none;26;MOD_FALLING;none
+  1:56 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  2:05 ShutdownGame:
+  2:05 ------------------------------------------------------------
+  2:05 ------------------------------------------------------------
+  2:05 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  2:05 J;;0;tincxd
+  2:07 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  2:18 P_A;;0;tincxd;2;0;0;0;0;0
+  2:55 ExitLevel: executed
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:06 ShutdownGame:
+  0:06 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:04 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:19 ------------------------------------------------------------
+  0:19 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:21 K;;0;allies;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_citystreets\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_citystreets\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 J;;0;tincxd
+  1:14 ShutdownGame:
+  1:14 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:05 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:20 ShutdownGame:
+  0:20 ------------------------------------------------------------
+  0:20 ------------------------------------------------------------
+  0:20 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:20 J;;0;tincxd
+  0:22 K;;0;axis;tincxd;;-1;;tincxd;none;100000;MOD_SUICIDE;none
+  0:33 P_A;;0;tincxd;2;0;0;0;0;0
+  1:09 ExitLevel: executed
+  1:09 ShutdownGame:
+  1:09 ------------------------------------------------------------
+  1:09 ------------------------------------------------------------
+  1:09 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:10 ShutdownGame:
+  1:10 ------------------------------------------------------------
+  1:10 ------------------------------------------------------------
+  1:10 InitGame: \fs_game\mods/raw-promoduntitled\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\CoDHost\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:11 J;;0;tincxd
+  2:19 ShutdownGame:
+  2:19 ------------------------------------------------------------

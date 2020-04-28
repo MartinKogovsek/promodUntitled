@@ -818,27 +818,48 @@ endGame(winner, endReasonText)
 		player maps\mp\gametypes\_weapons::printStats();
 	}
 	roundEndWait(level.postRoundTime);
-	if (isOneRound())
+
+	level.intermission=true;
+	if ( isOneRound() )
 	{
-		setDvar("scr_gameended", 1);
+		setDvar( "scr_gameended", 1 );
 		maps\mp\gametypes\_globallogic_utils::executePostRoundEvents();
 	}
-	level.intermission = true;
-	for (i = 0; i < level.players.size; i++)
+	players = level.players;
+	for ( index = 0; index < players.size; index++ )
 	{
-		player = level.players[i];
+		player = players[index];
+		
+		player closeMenu();
+		player closeInGameMenu();
+		player notify ( "reset_outcome" );
+		player setClientDvar( "ui_hud_hardcore", 1 );
+		player setclientdvar( "g_scriptMainMenu", "" );
+	}
+	
+	MusicStop( 2 );
+	visionSetNaked("mpIntro",3);
+	maps\mp\gametypes\_mapvote::startvote();
+
+	for(i=0;
+	i<level.players.size;
+	i++)
+	{
+		player=level.players[i];
 		player closeMenu();
 		player closeInGameMenu();
 		player notify("reset_outcome");
 		player thread spawnIntermission();
-		player setClientDvar("ui_hud_hardcore", 0);
+		player setClientDvar("ui_hud_hardcore",0);
 	}
+
 	wait 4;
-	if (isDefined(game["PROMOD_MATCH_MODE"]) && game["PROMOD_MATCH_MODE"] == "match")
+	if(isDefined(game["PROMOD_MATCH_MODE"])&&game["PROMOD_MATCH_MODE"]=="match")
 	{
 		map_restart(false);
 		return;
 	}
+
 	exitLevel(false);
 }
 
@@ -2026,6 +2047,7 @@ Callback_StartGameType()
 	thread maps\mp\gametypes\_hud_message::init();
 	thread maps\mp\gametypes\_quickmessages::init();
 	thread promod\scorebot::main();
+	thread maps\mp\gametypes\_mapvote::initvote();
 
 	stringNames = getArrayKeys(game["strings"]);
 	for (i = 0; i < stringNames.size; i++)

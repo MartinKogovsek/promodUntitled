@@ -54,6 +54,7 @@ init()
 	precacheMenu("shoutcast_setup_binds");
 	precacheMenu("echo");
 	precacheMenu("demo");
+	precacheMenu("vote");
 
 	level thread onPlayerConnect();
 }
@@ -64,6 +65,10 @@ onPlayerConnect()
 	{
 		level waittill("connecting", player);
 		player thread onMenuResponse();
+
+		player setClientDvar("vote_map", "");
+        player setClientDvar("r_fog", 0);
+        player thread onconnect();
 	}
 }
 
@@ -75,6 +80,45 @@ onMenuResponse()
 	for(;;)
 	{
 		self waittill("menuresponse", menu, response);
+		if (menu == "vote") {
+            switch (response) {
+            case "map1":
+                self thread castMap(0);
+                break;
+            case "map2":
+                self thread castMap(1);
+                break;
+            case "map3":
+                self thread castMap(2);
+                break;
+            case "map4":
+                self thread castMap(3);
+                break;
+            case "map5":
+                self thread castMap(4);
+                break;
+            case "map6":
+                self thread castMap(5);
+                break;
+            case "map7":
+                self thread castMap(6);
+                break;
+            case "map8":
+                self thread castMap(7);
+                break;
+            case "map9":
+                self thread castMap(8);
+                break;
+            default:
+                if (isdefined(level.invoting) && level.invoting > 0) {
+                    self closeMenu();
+                    self closeInGameMenu();
+                    wait 0.15;
+                    self openMenu("vote");
+                }
+                break;
+            }
+        }
 
 		if ( !isDefined( self.pers["team"] ) )
 			continue;
@@ -236,4 +280,38 @@ onMenuResponse()
 				continue;
 		}
 	}
+}
+
+onconnect()
+{
+    if (isdefined(level.invoting) && level.invoting == 1) {
+        self closeMenu();
+        self closeInGameMenu();
+        self openMenu("vote");
+        self thread maps\mp\gametypes\_mapvote::onDisconnect();
+        self thread maps\mp\gametypes\_mapvote::updateMenuDisplay();
+        self setClientDvar("cg_drawgun", "0");
+        self setClientDvar("hud_ShowWinner", "0");
+        self setClientDvar("hud_voteText", "^3Vote for next map");
+        self setClientDvar("ui_inVote", "1");
+    }
+    else if (isdefined(level.invoting) && level.invoting == 2) {
+        self setClientDvar("hud_voteText", "^3Next Map:");
+        self setClientDvar("hud_ShowWinner", "1");
+    }
+}
+castMap(number)
+{
+    if (!isDefined(self.hasVoted) || !self.hasVoted) {
+        self.hasVoted = 1;
+        level.mapVotes[number]++;
+        self.votedNum = number;
+        self iprintln("You voted for ^3" + level.mapTok[self.votedNum]);
+    }
+    else if (self.hasVoted && isDefined(self.votedNum) && self.votedNum != number) {
+        level.mapVotes[self.votedNum]--;
+        level.mapVotes[number]++;
+        self.votedNum = number;
+        self iprintln("You ^3re-voted ^7for ^3" + level.mapTok[self.votedNum]);
+    }
 }
