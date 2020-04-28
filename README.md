@@ -1,6 +1,15 @@
 # promodUntitled
 
 ## Patch notes
+#### V0.06 - GSC: hostname
+```
+Added _hostname.gsc, which updates hostname each round.
+Also updated promod website and hostname text in cfg.
+
+## [+]
+- _hostname.gsc (https://royal-soldiers.com/files/file/53-promodlive220-_hostnamegsc/)
+
+```
 #### V0.05 - RAW: vote.menu; GSC: _mapvote.gsc
 ![Alt Text](https://i.imgur.com/KgJLIUQ.png)
 ```
