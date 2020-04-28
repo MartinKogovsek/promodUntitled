@@ -2048,6 +2048,7 @@ Callback_StartGameType()
 	thread maps\mp\gametypes\_quickmessages::init();
 	thread promod\scorebot::main();
 	thread maps\mp\gametypes\_mapvote::initvote();
+	thread maps\mp\gametypes\_hostname::init();
 
 	stringNames = getArrayKeys(game["strings"]);
 	for (i = 0; i < stringNames.size; i++)

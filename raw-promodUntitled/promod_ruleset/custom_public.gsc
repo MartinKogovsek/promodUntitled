@@ -227,7 +227,7 @@ main()
 	setDvar( "scr_teambalance", 1 );
 
 	// website
-	setDvar( "promod_hud_website", "" ); // (avoid "//" here)
+	setDvar( "promod_hud_website", "Github.com/MartinKogovsek/promodUntitled" ); // (avoid "//" here)
 
 	// messagecenter
 	setDvar( "promod_mc_enable", 0 ); // [0-1]
