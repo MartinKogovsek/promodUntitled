@@ -1,6 +1,15 @@
 # promodUntitled
 
 ## Patch notes
+#### V0.07 - GSC: anti afk, hostname fix, sd strings
+```
+Added anti afk script, added hostname to mod.csv,
+colored sd strings.
+
+## [+]
+- _afk.gsc
+
+```
 #### V0.06 - GSC: hostname
 ```
 Added _hostname.gsc, which updates hostname each round.

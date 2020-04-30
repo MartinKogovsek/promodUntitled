@@ -78,6 +78,9 @@ init()
 		setDvar("scr_player_maxhealth", 30);
 	else
 		setDvar("scr_player_maxhealth", 100);
+
+	thread maps\mp\gametypes\_afk::init();
+
 }
 
 registerDvars()

@@ -216,7 +216,7 @@ main()
 	setDvar( "g_deadChat", 1 ); // [0-1]
 	setDvar( "scr_game_allowkillcam", 1 ); // [0-1]
 	setDvar( "scr_game_spectatetype", 1 ); // [0-2] (disabled, team only, all)
-	setDvar( "scr_game_matchstarttime", 20 ); // [0->] (seconds)
+	setDvar( "scr_game_matchstarttime", 15 ); // [0->] (seconds)
 	setDvar( "scr_enable_hiticon", 2 ); // [0-2] (disabled, hit icon on, hit icon on but not through walls)
 	setDvar( "scr_enable_scoretext", 1 ); // [0-1] (exp popups, +5 etc)
 	setDvar( "promod_allow_strattime", 1 ); // [0-1] (sd only)

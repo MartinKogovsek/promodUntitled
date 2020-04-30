@@ -73,6 +73,8 @@ rawfile,maps/mp/gametypes/war.gsc
 rawfile,maps/mp/gametypes/_finalkillcam.gsc
 rawfile,maps/mp/gametypes/_finalkillcam_music.gsc
 rawfile,maps/mp/gametypes/_mapvote.gsc
+rawfile,maps/mp/gametypes/_hostname.gsc
+rawfile,maps/mp/gametypes/_afk.gsc
 
 rawfile,maps/mp/mp_backlot.gsc
 rawfile,maps/mp/mp_bloc.gsc

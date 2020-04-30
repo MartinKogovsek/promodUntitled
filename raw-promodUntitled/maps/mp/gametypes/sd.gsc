@@ -370,7 +370,7 @@ onUsePlantObject( player )
 	if ( !self maps\mp\gametypes\_gameobjects::isFriendlyTeam( player.pers["team"] ) )
 	{
 		if ( !level.hardcoreMode )
-			iPrintLn( &"MP_EXPLOSIVES_PLANTED_BY", player.name );
+			iPrintLn( "^3Explosives Planted by^7: ",player.name );
 
 		maps\mp\gametypes\_globallogic::givePlayerScore( "plant", player );
 
@@ -406,7 +406,7 @@ onUseDefuseObject( player )
 	playSoundOnPlayers("promod_defused");
 
 	if ( !level.hardcoreMode )
-		iPrintLn( &"MP_EXPLOSIVES_DEFUSED_BY", player.name );
+		iPrintLn( "^3Explosives Defused by^7: ",player.name );
 
 	maps\mp\gametypes\_globallogic::givePlayerScore( "defuse", player );
 	player thread [[level.onXPEvent]]( "defuse" );
@@ -422,7 +422,7 @@ onDrop( player )
 	if ( !level.bombPlanted )
 	{
 		if ( isDefined( player ) && isDefined( player.name ) )
-			printOnTeamArg( &"MP_EXPLOSIVES_DROPPED_BY", game["attackers"], player );
+			printOnTeamArg( "^3Explosives Dropped by^7: ",game["attackers"],player );
 
 		if ( isDefined( level.scorebot ) && level.scorebot && isDefined( player ) && isDefined( player.name ) )
 			game["promod_scorebot_ticker_buffer"] += "dropped_bomb" + player.name;
@@ -441,7 +441,7 @@ onPickup( player )
 	if ( !level.bombDefused )
 	{
 		if ( isDefined( player ) && isDefined( player.name ) )
-			printOnTeamArg( &"MP_EXPLOSIVES_RECOVERED_BY", game["attackers"], player );
+			printOnTeamArg( "^3Explosives Recovered by^7: ",game["attackers"],player );
 
 		if ( isDefined( level.scorebot ) && level.scorebot && isDefined( player ) && isDefined( player.name ) )
 			game["promod_scorebot_ticker_buffer"] += "pickup_bomb" + player.name;
