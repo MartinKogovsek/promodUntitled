@@ -96,6 +96,7 @@ xcopy vision ..\..\raw\vision /SY
 
 echo    Copying source code...
 xcopy maps ..\..\raw\maps /SY
+xcopy misc_scripts ..\..\raw\misc_scripts /SY
 xcopy promod ..\..\raw\promod /SY
 xcopy promod_ruleset ..\..\raw\promod_ruleset /SY
 

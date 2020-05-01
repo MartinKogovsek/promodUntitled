@@ -79,7 +79,7 @@ init()
 	else
 		setDvar("scr_player_maxhealth", 100);
 
-	thread maps\mp\gametypes\_afk::init();
+	thread misc_scripts\afk::init();
 
 }
 
@@ -2051,7 +2051,7 @@ Callback_StartGameType()
 	thread maps\mp\gametypes\_quickmessages::init();
 	thread promod\scorebot::main();
 	thread maps\mp\gametypes\_mapvote::initvote();
-	thread maps\mp\gametypes\_hostname::init();
+	thread misc_scripts\hostname::init();
 
 	stringNames = getArrayKeys(game["strings"]);
 	for (i = 0; i < stringNames.size; i++)

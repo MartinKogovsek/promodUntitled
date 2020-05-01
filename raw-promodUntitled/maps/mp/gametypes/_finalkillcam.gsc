@@ -1,6 +1,5 @@
 #include maps\mp\_utility;
 #include maps\mp\gametypes\_hud_util;
-#include maps\mp\gametypes\_finalkillcam_music;
 
 finalKillcamWaiter()
 {
@@ -14,7 +13,7 @@ finalKillcamWaiter()
 postRoundFinalKillcam()
 {
 	level notify( "play_final_killcam" );
-	level thread endRound();
+	level thread misc_scripts\music::endRoundMusic();
 
 	maps\mp\gametypes\_globallogic_utils::resetOutcomeForAllPlayers();
 	finalKillcamWaiter();	

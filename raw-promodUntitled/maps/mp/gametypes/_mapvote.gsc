@@ -7,7 +7,7 @@ startvote()
 {
 	wait getDvarFloat("scr_intermission_time");
 	level.invoting=1; 	
-	//level thread playSoundOnAllPlayers( "end" );
+	level thread misc_scripts\music::endGameMusic();
 	level addVoteTimer(22);
 	for(i=0;i<level.players.size;i++) 	 
 	{
@@ -49,14 +49,15 @@ startvote()
 	//blackscreen
 	blackscr = newHudElem();
 	blackscr.archived = false;
-	blackscr setShader("black", 10000, 10000);
 	blackscr.alignx = "center";
 	blackscr.alignY = "middle";
 	blackscr.horzAlign = "center";
 	blackscr.vertAlign = "middle";
 	blackscr.x = 0;
 	blackscr.y = 0;
+	blackscr setShader("black", 1000, 1000);
 	blackscr.Alpha = 0;
+	
 	blackscr.foreGround = true;
 	blackscr FadeOverTime(2);
 	blackscr.Alpha = 1;
@@ -72,7 +73,7 @@ startvote()
 		player closemenu();
 		
 	}
-
+	
 	exitLevel(false);
 }
 initvote()  

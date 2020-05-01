@@ -1,7 +1,21 @@
 # promodUntitled
 
+## Contributors
+- [Chandima Bandara](https://github.com/dev-pos/)
+- [Martin Kogovšek](https://github.com/MartinKogovsek/)
+
 ## Patch notes
-#### V0.07 - GSC: anti afk, hostname fix, sd strings
+#### V0.08 - [1.5.2020] - RAW: endMusic; GSC: misc_scripts
+```
+Added 3x pUend# sounds, playing at MapVote.
+Also changed endround songs.
+
+Reorganized code a bit, removed unnecessary code from kc_music,
+refactored it into music.gsc. 
+Created "misc_scripts" folder, for custom scripts.
+
+```
+#### V0.07 - [30.4.2020] - GSC: anti afk, hostname fix, sd strings
 ```
 Added anti afk script, added hostname to mod.csv,
 colored sd strings.
@@ -10,7 +24,7 @@ colored sd strings.
 - _afk.gsc
 
 ```
-#### V0.06 - GSC: hostname
+#### V0.06 - [29.4.2020] - GSC: hostname
 ```
 Added _hostname.gsc, which updates hostname each round.
 Also updated promod website and hostname text in cfg.
@@ -19,7 +33,7 @@ Also updated promod website and hostname text in cfg.
 - _hostname.gsc (https://royal-soldiers.com/files/file/53-promodlive220-_hostnamegsc/)
 
 ```
-#### V0.05 - RAW: vote.menu; GSC: _mapvote.gsc
+#### V0.05 - [28.4.2020] - RAW: vote.menu; GSC: _mapvote.gsc
 ![Alt Text](https://i.imgur.com/KgJLIUQ.png)
 ```
 Added a new strattime, finallkillcam ends with fadein blackscreen, which fades into strattime.
@@ -31,7 +45,7 @@ Knife_mp is now in kniferound.
 - kniferound knife_mp
 
 ```
-#### V0.04 - GSC: Strattime, fade, knife;
+#### V0.04 - [23.4.2020] - GSC: Strattime, fade, knife;
 ![Alt Text](https://media.giphy.com/media/fvfJpbntarSnCaRgAC/giphy.gif)
 ```
 Added a new strattime, finallkillcam ends with fadein blackscreen, which fades into strattime.
@@ -43,7 +57,7 @@ Knife_mp is now in kniferound.
 - kniferound knife_mp
 
 ```
-#### V0.03 - RAW: mp3 music; GSC: finalKillcam;
+#### V0.03 - [20.4.2020] - RAW: mp3 music; GSC: finalKillcam;
 ![Alt Text](https://media.giphy.com/media/UryxWpD2qG8GEEmvPu/giphy.gif)
 ```
 Added finallkillcam for S&D, added mp3 sounds.
@@ -54,14 +68,14 @@ Added finallkillcam for S&D, added mp3 sounds.
   - attacker & victim
 
 ```
-#### V0.02 - RAW: Imported knife_mp;
+#### V0.02 - [19.4.2020] - RAW: Imported knife_mp;
 ```
 
 ## [+]
 - knife_mp (http://www.cfgfactory.com/downloads/show/55909257b2754)
 
 ```
-#### V0.01 - source
+#### V0.01 - [17.4.2020] - source
 ```
 Initial.
 
