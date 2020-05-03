@@ -79,7 +79,10 @@ init()
 	else
 		setDvar("scr_player_maxhealth", 100);
 
+	level thread misc_scripts\_duff_common::load();
+
 	thread misc_scripts\afk::init();
+	thread misc_scripts\togglebinds::init();
 
 }
 
@@ -1678,7 +1681,7 @@ startGame()
 	if (isDefined(level.timeout_over) && !level.timeout_over) return;
 	if (isDefined(game["PROMOD_KNIFEROUND"]) && game["PROMOD_KNIFEROUND"])
 	{
-		thread disableBombsites();
+		//thread disableBombsites();
 		if (game["PROMOD_MATCH_MODE"] != "pub")
 		{
 			level.timeLimitOverride = true;

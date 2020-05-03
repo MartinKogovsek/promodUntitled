@@ -1,115 +1,129 @@
-/*
-  Copyright (c) 2009-2017 Andreas Göransson <andreas.goransson@gmail.com>
-  Copyright (c) 2009-2017 Indrek Ardel <indrek@ardel.eu>
-
-  This file is part of Call of Duty 4 Promod.
-
-  Call of Duty 4 Promod is licensed under Promod Modder Ethical Public License.
-  Terms of license can be found in LICENSE.md document bundled with the project.
-*/
-
 #include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
 
-#define CHOICE_X_START			0
-#define CHOICE_Y_START			31
+#define CHOICE_SIZE_X           150
+#define CHOICE_SIZE_Y           22
+
+#define CHOICE_X_START          0
+#define CHOICE_Y_START          105
+
+#define CHOICE_SEP_1            13
+
+#define CHOICE_GROUP            "shoutcast_setup"
 
 #include "ui_mp/menustyle.inc"
-#include "ui/choices_setup_common.menu"
+#include "ui_mp/choices_setup_teams.menu"
+
+#define ORIGIN_DESCRIPTION      (CHOICE_X_START + 15) 190
 
 {
-	menuDef
+	menuDef 
 	{
 		name			"shoutcast_setup"
+		fullScreen		0
 		rect			0 0 640 480
-		focuscolor		COLOR_FOCUSED
-		style			WINDOW_STYLE_EMPTY
+		focusColor		COLOR_FOCUSED
+		blurWorld		7.0
 		onOpen
 		{
-			setLocalVarInt ui_highlight "";
+			close shoutcast_setup_binds;
 			scriptMenuResponse "getdetails";
+			setLocalVarBool ui_hideBack 1;
 		}
-		onEsc
+		onClose
 		{
-			close self;
+			setLocalVarBool ui_hideBack 0;
+		}
+		onESC 
+		{ 
+			close self;		
 		}
 
-		itemDef
-		{
-			style			WINDOW_STYLE_FILLED
-			rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
-			backcolor		0 0 0 0.75
-			visible			1
-			decoration
-		}
-		itemDef
-		{
-			style			WINDOW_STYLE_SHADER
-			rect			0 0 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
-			background		"gradient_top"
-			visible			1
-			decoration
-		}
-		itemDef
-		{
-			style			WINDOW_STYLE_SHADER
-			rect			0 405 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
-			background		"gradient_bottom"
-			visible			1
-			decoration
-		}
+		#include "ui_mp/ingamebg.inc"
+		
+        #define ORIGIN_BANNER       108 48
 
-		#include "ui_mp/scriptmenus/shoutcast_setup.inc"
+        CHOICE_MENU_TITLE( "Shoutcast Setup" )
 
-		CHOICE_SECTION_TITLE( 1, dvarString("shout_attack_name") )
+        #define BACK_OPEN   ;
+        #include "ui_mp/navcontrols.inc"
+		#include "ui_mp/mod_info.inc"
 
-		CHOICE_BUTTON_VIS( 2, "1. " + dvarString("shout_name0") + " (" + dvarString("shout_class0") + ")", scriptMenuResponse "1", when( dvarString("shout_name0") != "" && dvarString("shout_health0") != "0" ) )
-		CHOICE_BUTTON_VIS( 3, "2. " + dvarString("shout_name1") + " (" + dvarString("shout_class1") + ")", scriptMenuResponse "2", when( dvarString("shout_name1") != "" && dvarString("shout_health1") != "0" ) )
-		CHOICE_BUTTON_VIS( 4, "3. " + dvarString("shout_name2") + " (" + dvarString("shout_class2") + ")", scriptMenuResponse "3", when( dvarString("shout_name2") != "" && dvarString("shout_health2") != "0" ) )
-		CHOICE_BUTTON_VIS( 5, "4. " + dvarString("shout_name3") + " (" + dvarString("shout_class3") + ")", scriptMenuResponse "4", when( dvarString("shout_name3") != "" && dvarString("shout_health3") != "0" ) )
-		CHOICE_BUTTON_VIS( 6, "5. " + dvarString("shout_name4") + " (" + dvarString("shout_class4") + ")", scriptMenuResponse "5", when( dvarString("shout_name4") != "" && dvarString("shout_health4") != "0" ) )
+        #undef  CHOICE_X_START
+        #define CHOICE_X_START  -300
 
-		CHOICE_DBUTTON_VIS( 2, "1. " + dvarString("shout_name0") + " (" + dvarString("shout_class0") + ")", when( dvarString("shout_name0") != "" && dvarString("shout_health0") == "0" ) )
-		CHOICE_DBUTTON_VIS( 3, "2. " + dvarString("shout_name1") + " (" + dvarString("shout_class1") + ")", when( dvarString("shout_name1") != "" && dvarString("shout_health1") == "0" ) )
-		CHOICE_DBUTTON_VIS( 4, "3. " + dvarString("shout_name2") + " (" + dvarString("shout_class2") + ")", when( dvarString("shout_name2") != "" && dvarString("shout_health2") == "0" ) )
-		CHOICE_DBUTTON_VIS( 5, "4. " + dvarString("shout_name3") + " (" + dvarString("shout_class3") + ")", when( dvarString("shout_name3") != "" && dvarString("shout_health3") == "0" ) )
-		CHOICE_DBUTTON_VIS( 6, "5. " + dvarString("shout_name4") + " (" + dvarString("shout_class4") + ")", when( dvarString("shout_name4") != "" && dvarString("shout_health4") == "0" ) )
+        #undef  CHOICE_HORIZONTAL_ALIGN
+        #define CHOICE_HORIZONTAL_ALIGN HORIZONTAL_ALIGN_CENTER
 
-		CHOICE_DBUTTON_VIS( 2, "1. No Player", when( dvarString("shout_name0") == "" ) )
-		CHOICE_DBUTTON_VIS( 3, "2. No Player", when( dvarString("shout_name1") == "" ) )
-		CHOICE_DBUTTON_VIS( 4, "3. No Player", when( dvarString("shout_name2") == "" ) )
-		CHOICE_DBUTTON_VIS( 5, "4. No Player", when( dvarString("shout_name3") == "" ) )
-		CHOICE_DBUTTON_VIS( 6, "5. No Player", when( dvarString("shout_name4") == "" ) )
+        #undef CHOICE_Y_START
+        #define CHOICE_Y_START          30
+	
+		CHOICE_SECTION_TITLE( 1, dvarString(shout_attack_name) )
+		CHOICE_SECTION_TITLE( 7, dvarString(shout_defence_name) )
 
-		CHOICE_SECTION_TITLE( 7, dvarString("shout_defence_name") )
+		#define SHOUT_THING(itemNum,player,response,team) \
+		CHOICE_DBUTTON_VIS( itemNum, player+". No Player", when (dvarString("shout_"+team+player)=="" ) ) \
+		CHOICE_DBUTTON_VIS( itemNum, player+". "+dvarString("shout_"+team+player) + " (" + dvarString("shout_"+team+"class"+player) + ")" , when (dvarint("shout_"+team+"health"+player)== 0 && dvarString("shout_"+team+player)!="" ) ) \
+		CHOICE_BUTTON_VIS( itemNum, player+". "+dvarString("shout_"+team+player) + " (" + dvarString("shout_"+team+"class"+player) + ")" , exec "openscriptmenu shoutcast_setup "+response;, when (dvarint("shout_"+team+"health"+player)!= 0 && dvarString("shout_"+team+player)!="" ) )
+		
+		#define CHOC_SPEC( itemIndex, playr, num ) \
+		CHOICE_DBUTTON_VIS( itemIndex, "No Shoutcaster", when (dvarString("shout_spec"+playr)=="" ) ) \
+		CHOICE_DBUTTON_VIS( itemIndex, dvarstring(name), when (dvarString(name) == dvarString("shout_spec"+playr)) ) \
+		CHOICE_BUTTON_VIS( itemIndex, dvarString("shout_spec"+playr), scriptMenuResponse "shoutcast_setup "+num;, when (dvarString("shout_spec"+playr)!="" && dvarstring(name) != dvarString("shout_spec"+player)) ) 
 
-		CHOICE_BUTTON_VIS( 8, "6. " + dvarString("shout_name5") + " (" + dvarString("shout_class5") + ")", scriptMenuResponse "6", when( dvarString("shout_name5") != "" && dvarString("shout_health5") != "0" ) )
-		CHOICE_BUTTON_VIS( 9, "7. " + dvarString("shout_name6") + " (" + dvarString("shout_class6") + ")", scriptMenuResponse "7", when( dvarString("shout_name6") != "" && dvarString("shout_health6") != "0" ) )
-		CHOICE_BUTTON_VIS( 10, "8. " + dvarString("shout_name7") + " (" + dvarString("shout_class7") + ")", scriptMenuResponse "8", when( dvarString("shout_name7") != "" && dvarString("shout_health7") != "0" ) )
-		CHOICE_BUTTON_VIS( 11, "9. " + dvarString("shout_name8") + " (" + dvarString("shout_class8") + ")", scriptMenuResponse "9", when( dvarString("shout_name8") != "" && dvarString("shout_health8") != "0" ) )
-		CHOICE_BUTTON_VIS( 12, "0. " + dvarString("shout_name9") + " (" + dvarString("shout_class9") + ")", scriptMenuResponse "10", when( dvarString("shout_name9") != "" && dvarString("shout_health9") != "0" ) )
+		SHOUT_THING(2,1,1,"allies")
+		SHOUT_THING(3,2,2,"allies")
+		SHOUT_THING(4,3,3,"allies")
+		SHOUT_THING(5,4,4,"allies")
+		SHOUT_THING(6,5,5,"allies")
+		
+		SHOUT_THING(8,1,6,"axis")
+		SHOUT_THING(9,2,7,"axis")
+		SHOUT_THING(10,3,8,"axis")
+		SHOUT_THING(11,4,9,"axis")
+		SHOUT_THING(12,5,10,"axis")
+		
+		CHOICE_BUTTON( 14, "Players...", close self; open shoutcast_setup;  )
+		CHOICE_BUTTON( 15, "Binds...", close self; open shoutcast_setup_binds; )
+		
+        #undef CHOICE_Y_START
+        #undef  CHOICE_X_START
+        #define CHOICE_Y_START          20
+        #define CHOICE_X_START  -260
+		
+		CHOICE_SECTION_TITLE( 21, "Shoutcaster" )
+		CHOC_SPEC(22, 1, 11)
+		CHOC_SPEC(23, 2, 12)
+		CHOC_SPEC(24, 3, 13)
+		CHOC_SPEC(25, 4, 14)
+		CHOC_SPEC(26, 5, 15)
+		
+		CHOICE_SECTION_TITLE( 27, "Class" )
+		
+		#define WHE( class ) \
+		( \
+			(dvarstring(shout_axisclass1)==class && dvarint(shout_axishealth1)!=0) || \
+			(dvarstring(shout_axisclass2)==class && dvarint(shout_axishealth2)!=0) || \
+			(dvarstring(shout_axisclass3)==class && dvarint(shout_axishealth3)!=0) || \
+			(dvarstring(shout_axisclass4)==class && dvarint(shout_axishealth4)!=0) || \
+			(dvarstring(shout_axisclass5)==class && dvarint(shout_axishealth5)!=0) || \
+			(dvarstring(shout_alliesclass1)==class && dvarint(shout_allieshealth1)!=0) || \
+			(dvarstring(shout_alliesclass2)==class && dvarint(shout_allieshealth2)!=0) || \
+			(dvarstring(shout_alliesclass3)==class && dvarint(shout_allieshealth3)!=0) || \
+			(dvarstring(shout_alliesclass4)==class && dvarint(shout_allieshealth4)!=0) || \
+			(dvarstring(shout_alliesclass5)==class && dvarint(shout_allieshealth5)!=0) \
+		)
+		
+		#define SHOUT_CLASS_THING(itemNum,subclass) \
+		CHOICE_DBUTTON_VIS( itemNum, "Cycle "+subclass+" Players", when( WHE( subclass )==0 ) ) \
+		CHOICE_BUTTON_VIS( itemNum,  "Cycle "+subclass+" Players",  exec "openscriptmenu shoutcast_setup "+subclass;, when (WHE( subclass )==1 ) )
+		
+		SHOUT_CLASS_THING(28,"Assault")
+		SHOUT_CLASS_THING(29,"Specops")
+		SHOUT_CLASS_THING(30,"Demolitions")
+		SHOUT_CLASS_THING(31,"Sniper")
+		
+        #include "ui/safearea.menu"
 
-		CHOICE_DBUTTON_VIS( 8, "6. " + dvarString("shout_name5") + " (" + dvarString("shout_class5") + ")", when( dvarString("shout_name5") != "" && dvarString("shout_health5") == "0" ) )
-		CHOICE_DBUTTON_VIS( 9, "7. " + dvarString("shout_name6") + " (" + dvarString("shout_class6") + ")", when( dvarString("shout_name6") != "" && dvarString("shout_health6") == "0" ) )
-		CHOICE_DBUTTON_VIS( 10, "8. " + dvarString("shout_name7") + " (" + dvarString("shout_class7") + ")", when( dvarString("shout_name7") != "" && dvarString("shout_health7") == "0" ) )
-		CHOICE_DBUTTON_VIS( 11, "9. " + dvarString("shout_name8") + " (" + dvarString("shout_class8") + ")", when( dvarString("shout_name8") != "" && dvarString("shout_health8") == "0" ) )
-		CHOICE_DBUTTON_VIS( 12, "0. " + dvarString("shout_name9") + " (" + dvarString("shout_class9") + ")", when( dvarString("shout_name9") != "" && dvarString("shout_health9") == "0" ) )
-
-		CHOICE_DBUTTON_VIS( 8, "6. No Player", when( dvarString("shout_name5") == "" ) )
-		CHOICE_DBUTTON_VIS( 9, "7. No Player", when( dvarString("shout_name6") == "" ) )
-		CHOICE_DBUTTON_VIS( 10, "8. No Player", when( dvarString("shout_name7") == "" ) )
-		CHOICE_DBUTTON_VIS( 11, "9. No Player", when( dvarString("shout_name8") == "" ) )
-		CHOICE_DBUTTON_VIS( 12, "0. No Player", when( dvarString("shout_name9") == "" ) )
-
-		CHOICE_SECTION_TITLE( 21, "Class" )
-
-		CHOICE_BUTTON_VIS( 22, "Cycle Assault Players", scriptMenuResponse "assault", when( dvarInt("shout_class_assault") > 0 ) )
-		CHOICE_BUTTON_VIS( 23, "Cycle Spec Ops Players", scriptMenuResponse "specops", when(  dvarInt("shout_class_specops") > 0 ) )
-		CHOICE_BUTTON_VIS( 24, "Cycle Demolitions Players", scriptMenuResponse "demolitions", when( dvarInt("shout_class_demolitions") > 0 ) )
-		CHOICE_BUTTON_VIS( 25, "Cycle Sniper Players", scriptMenuResponse "sniper", when( dvarInt("shout_class_sniper") > 0 ) )
-
-		CHOICE_DBUTTON_VIS( 22, "Cycle Assault Players", when( dvarInt("shout_class_assault") == 0 ) )
-		CHOICE_DBUTTON_VIS( 23, "Cycle Spec Ops Players", when( dvarInt("shout_class_specops") == 0 ) )
-		CHOICE_DBUTTON_VIS( 24, "Cycle Demolitions Players", when( dvarInt("shout_class_demolitions") == 0 ) )
-		CHOICE_DBUTTON_VIS( 25, "Cycle Sniper Players", when( dvarInt("shout_class_sniper") == 0 ) )
-	}
+    }
 }

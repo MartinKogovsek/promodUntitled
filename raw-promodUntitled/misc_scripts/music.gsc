@@ -1,6 +1,6 @@
 endRoundMusic(){
 	song = RandomIntRange( 1, 13 );
-	level thread playSoundOnAllPlayers( "pU" + song );   
+	level thread playKcSoundOnAllPlayers( "pU" + song );   
 	level.kcSong = song;
 }
 
@@ -16,5 +16,24 @@ playSoundOnAllPlayers( soundAlias ){
 
 	}
 }
+
+playKcSoundOnAllPlayers( soundAlias )
+{
+    for(i=0;i<level.players.size;i++)
+	{
+		player=level.players[i];
+		if(player.pers["killCamMusic"] == 1){
+     	 		player playLocalSound( soundAlias );
+		} else if (player.pers["killCamMusic"] == 0){
+			player iPrintln( "^3Final killcam music [^1OFF]^3." );
+		}
+   	}
+}
+/*
+stopSoundOnAllPlayers( soundAlias ){
+	players = getAllPlayers();
+	for( i = 0; i < players.size; i++ )
+		players[i] stopLocalSound( soundAlias );
+}*/
 
 

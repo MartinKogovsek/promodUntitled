@@ -18,6 +18,7 @@ menufile,ui_mp/scriptmenus/shoutcast_setup_binds.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor_flipped.menu
 menufile,ui_mp/scriptmenus/vote.menu
+menufile,ui_mp/scriptmenus/mod_settings.menu
 
 rawfile,maps/createfx/mp_backlot_fx.gsc
 rawfile,maps/createfx/mp_bloc_fx.gsc
@@ -76,6 +77,8 @@ rawfile,maps/mp/gametypes/_mapvote.gsc
 rawfile,misc_scripts/afk.gsc
 rawfile,misc_scripts/hostname.gsc
 rawfile,misc_scripts/music.gsc
+rawfile,misc_scripts/_duff_common.gsc
+rawfile,misc_scripts/togglebinds.gsc
 
 rawfile,maps/mp/mp_backlot.gsc
 rawfile,maps/mp/mp_bloc.gsc
@@ -118,6 +121,9 @@ rawfile,promod/timeout.gsc
 rawfile,shock/damage_mp.shock
 
 material,weapon_knife
+
+material,image_logo
+material,text_logo
 
 material,loadscreen_mp_backlot
 material,loadscreen_mp_bloc

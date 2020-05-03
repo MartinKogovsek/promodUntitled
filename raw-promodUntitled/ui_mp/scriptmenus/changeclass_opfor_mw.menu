@@ -1,28 +1,20 @@
-/*
-  Copyright (c) 2009-2017 Andreas Göransson <andreas.goransson@gmail.com>
-  Copyright (c) 2009-2017 Indrek Ardel <indrek@ardel.eu>
-
-  This file is part of Call of Duty 4 Promod.
-
-  Call of Duty 4 Promod is licensed under Promod Modder Ethical Public License.
-  Terms of license can be found in LICENSE.md document bundled with the project.
-*/
-
 #include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
 
-#define CHOICE_SIZE_X
+#define CHOICE_SIZE_X			//150
 #define CHOICE_SIZE_Y			22
 
 #define CHOICE_X_START			0
 #define CHOICE_Y_START			34
 
 #define CHOICE_SEP_OFFSET_Y		-2
+#define CHOICE_SEP_1            4
+#define CHOICE_SEP_2            6
+#define CHOICE_SEP_3            10
+#define CHOICE_SEP_4            12
 
 #include "ui_mp/menustyle.inc"
 #include "ui/choices_setup_common.menu"
-
-#undef BUTTON_BG_COLOR
-#define BUTTON_BG_COLOR		0 0 0 0
 
 #define MENU_LOCKED_COLOR		0.25 0.25 0.25 1
 
@@ -40,35 +32,35 @@
 		rect			0 0 640 480
 		focuscolor		COLOR_FOCUSED
 		style			WINDOW_STYLE_EMPTY
-		blurWorld		7
+		blurWorld		7.0
 		onOpen
 		{
-			setLocalVarInt ui_highlight "";
-			setLocalVarString ui_team "opfor"
+			setLocalVarString ui_team "marines"
 		}
-		onEsc
+		onEsc 
 		{
-			close self;
+			scriptMenuResponse "back";
 		}
-
+		
+		// background overlay
 		itemDef
 		{
 			style			WINDOW_STYLE_FILLED
 			rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
-			backcolor		0 0 0 0.75
+			backcolor		0 0 0 0.75 //0 0.05 0.15 0.5
 			visible			1
 			decoration
 		}
-		itemDef
-		{
+		// gradient_top
+		itemDef	{
 			style			WINDOW_STYLE_SHADER
 			rect			0 0 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
 			background		"gradient_top"
 			visible			1
 			decoration
 		}
-		itemDef
-		{
+		// gradient_bottom
+		itemDef	{
 			style			WINDOW_STYLE_SHADER
 			rect			0 405 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
 			background		"gradient_bottom"
@@ -76,30 +68,68 @@
 			decoration
 		}
 
-		CHOICE_MENU_TITLE( "@MPUI_CHOOSE_CLASS_CAP" )
+		CHOICE_MENU_TITLE( "CHOOSE CLASS" )
 
-		#define BACK_OPEN;
+		#define BACK_OPEN	;
 		#include "ui_mp/navcontrols.inc"
+		//#include "ui_mp/leftside_options.inc"
 		#include "ui_mp/teamicon.inc"
+		#include "ui_mp/mod_info.inc"
 
-		CHOICE_BUTTON_VIS( 1, "1. Assault", scriptMenuResponse "assault";, when( dvarBool( axis_allow_assault ) || dvarString( loadout_curclass ) == "assault" ) )
-		CHOICE_DBUTTON_VIS( 1, "1. Assault", when( !dvarBool( axis_allow_assault ) && dvarString( loadout_curclass ) != "assault" ) )
+		CHOICE_HIGHLIGHT( 1, 1 )
+		CHOICE_BUTTON_VIS_NOHI( 1, "Assault", scriptMenuResponse "assault";, when( dvarBool( allies_allow_assault ) || dvarString( loadout_curclass ) == "assault" ) )
+		CHOICE_DBUTTON_VIS_NOHI( 1, "Assault", when( !dvarBool( allies_allow_assault ) && dvarString( loadout_curclass ) != "assault" ) )
 
-		CHOICE_BUTTON_VIS( 2, "2. Spec Ops", scriptMenuResponse "specops";, when( dvarBool( axis_allow_specops ) || dvarString( loadout_curclass ) == "specops" ) )
-		CHOICE_DBUTTON_VIS( 2, "2. Spec Ops", when( !dvarBool( axis_allow_specops ) && dvarString( loadout_curclass ) != "specops" ) )
+		CHOICE_HIGHLIGHT( 2, 1 )
+		CHOICE_BUTTON_VIS_NOHI( 2, "Spec Ops", scriptMenuResponse "specops";, when( dvarBool( allies_allow_specops ) || dvarString( loadout_curclass ) == "specops" ) )
+		CHOICE_DBUTTON_VIS_NOHI( 2, "Spec Ops", when( !dvarBool( allies_allow_specops ) && dvarString( loadout_curclass ) != "specops" ) )
 
-		CHOICE_BUTTON_VIS( 3, "3. Demolitions", scriptMenuResponse "demolitions";, when( dvarBool( axis_allow_demolitions ) || dvarString( loadout_curclass ) == "demolitions" ) )
-		CHOICE_DBUTTON_VIS( 3, "3. Demolitions", when( !dvarBool( axis_allow_demolitions ) && dvarString( loadout_curclass ) != "demolitions" ) )
+		CHOICE_HIGHLIGHT( 3, 1 )
+		CHOICE_BUTTON_VIS_NOHI( 3, "Demolitions", scriptMenuResponse "demolitions";, when( dvarBool( allies_allow_demolitions ) || dvarString( loadout_curclass ) == "demolitions" ) )
+		CHOICE_DBUTTON_VIS_NOHI( 3, "Demolitions", when( !dvarBool( allies_allow_demolitions ) && dvarString( loadout_curclass ) != "demolitions" ) )
 
-		CHOICE_BUTTON_VIS( 4, "4. Sniper", scriptMenuResponse "sniper";, when( dvarBool( axis_allow_sniper ) || dvarString( loadout_curclass ) == "sniper" ) )
-		CHOICE_DBUTTON_VIS( 4, "4. Sniper", when( !dvarBool( axis_allow_sniper ) && dvarString( loadout_curclass ) != "sniper" ) )
+		CHOICE_HIGHLIGHT( 4, 1 )
+		CHOICE_BUTTON_VIS_NOHI( 4, "Sniper", scriptMenuResponse "sniper";, when( dvarBool( allies_allow_sniper ) || dvarString( loadout_curclass ) == "sniper" ) )
+		CHOICE_DBUTTON_VIS_NOHI( 4, "Sniper", when( !dvarBool( allies_allow_sniper ) && dvarString( loadout_curclass ) != "sniper" ) )
+		CHOICE_SEPARATOR_VIS( CHOICE_SEP_1, when( !localvarBool( ui_hideBack ) ) )
+		
+		//CHOICE_HIGHLIGHT( 6, 1 )		
+		//CHOICE_BUTTON_VIS_NOHI( 6, "Spectate Team", scriptMenuResponse "killspec";, 1 )
+		
+		// SETTINGS =======================================================================
+		CHOICE_SEPARATOR_VIS( CHOICE_SEP_2, when( !localvarBool( ui_hideBack ) ) )
+		CHOICE_HIGHLIGHT( 7, 1 )	
+		CHOICE_DVARFLOATLIST(7 , "Max FPS", com_maxfps, { "100 FPS" 100 "125 FPS" 125 "200 FPS" 200 "250 FPS" 250 }, ;		)
 
-		CHOICE_BUTTON( 6, "5. Spectate Team", scriptMenuResponse "killspec"; )
+		CHOICE_HIGHLIGHT( 8, 1 )
+		CHOICE_DVARFLOATLIST( 8, "FOV", cg_fov, { "65" 65 "71.1111" 71.1111 "80" 80 }, ; )
+		
+		CHOICE_HIGHLIGHT ( 9, 1 )
+		CHOICE_DVARFLOATLIST( 9, "FOV/SCALE", cg_fovScale, { "1.25" 1.25 "1.125" 1.125 }, ; )
 
-		execKey "1" { scriptMenuResponse "assault"; }
-		execKey "2" { scriptMenuResponse "specops"; }
-		execKey "3" { scriptMenuResponse "demolitions"; }
-		execKey "4" { scriptMenuResponse "sniper"; }
-		execKey "5" { scriptMenuResponse "killspec"; }
+		CHOICE_HIGHLIGHT ( 10, 1 )
+		CHOICE_DVARFLOATLIST( 10, "FullBright", r_fullbright, { "On" 1 "Off" 0 }, ; )
+		CHOICE_SEPARATOR_VIS( CHOICE_SEP_3, when( !localvarBool( ui_hideBack ) ) )
+		
+		CHOICE_HIGHLIGHT ( 10, 1 )
+		CHOICE_DVARFLOATLIST( 10, "FullBright", r_fullbright, { "On" 1 "Off" 0 }, ; )
+		CHOICE_SEPARATOR_VIS( CHOICE_SEP_3, when( !localvarBool( ui_hideBack ) ) )
+		
+		CHOICE_HIGHLIGHT ( 11, 1 )
+		CHOICE_DVARSTRINGLIST( 11, "FPS Counter", cg_drawfps, { "On" ; "Simple" ; "Off" ; "Off" }, ; )
+		
+		CHOICE_HIGHLIGHT ( 12, 1 )
+		CHOICE_DVARFLOATLIST( 12, "Draw lagometer", cg_drawLagometer, { "On" 1 "Off" 0 }, ; )
+		CHOICE_SEPARATOR_VIS( CHOICE_SEP_4, when( !localvarBool( ui_hideBack ) ) )
+		
+		// * =======================================================================
+		
+		execKey "1" { scriptMenuResponse "assault"}
+		execKey "2" { scriptMenuResponse "specops"}
+		execKey "3" { scriptMenuResponse "demolition"}
+		execKey "4" { scriptMenuResponse "sniper"}
+		execKey "5" { scriptMenuResponse "killspec"}
+
+		#include "ui/safearea.menu"
 	}
 }

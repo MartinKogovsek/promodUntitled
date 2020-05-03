@@ -55,6 +55,7 @@ init()
 	precacheMenu("echo");
 	precacheMenu("demo");
 	precacheMenu("vote");
+	precacheMenu("mod_settings");
 
 	level thread onPlayerConnect();
 }

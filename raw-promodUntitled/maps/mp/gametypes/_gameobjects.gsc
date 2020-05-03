@@ -199,7 +199,7 @@ carryObjectProxThink()
 		if ( self.isResetting || !isAlive( player ) || !self canInteractWith( player.pers["team"] ) || !player.canPickupObject || isDefined( self.carrier ) )
 			continue;
 
-		if ( (isDefined( level.timeout_over ) && !level.timeout_over) || ( isDefined( game["PROMOD_KNIFEROUND"] ) && game["PROMOD_KNIFEROUND"] ) )
+		if ( (isDefined( level.timeout_over ) && !level.timeout_over) )
 			return;
 
 		self setPickedUp( player );
