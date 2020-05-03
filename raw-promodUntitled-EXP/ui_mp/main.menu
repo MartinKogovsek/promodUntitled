@@ -88,8 +88,7 @@
 		CHOICE_BUTTON_FOCUS_VIS( 1, "About",;,setLocalVarBool ui_dev 1;setLocalVarBool ui_remod 0,setLocalVarBool ui_dev 0, when( !localvarBool( ui_hideBack ) )  )
 
 		CHOICE_SEPARATOR_VIS( CHOICE_SEP_1, when( !localvarBool( ui_hideBack ) ) )
-		CHOICE_BUTTON_VIS( 2, "Reconnect", exec "connect 46.182.226.157:28961";, when( !localvarbool( ui_hideBack ) ) )
-		//CHOICE_BUTTON_VIS( 2, ".: ^5Connect ^5Roccat^7 :.", exec "connect 185.4.149.15:28976";, when( !localvarbool( ui_hideBack ) ) )
+		CHOICE_BUTTON_VIS( 2, "Reconnect", exec "reconnect";, when( !localvarbool( ui_hideBack ) ) )
 		CHOICE_SEPARATOR_VIS( CHOICE_SEP_2, when( !localvarBool( ui_hideBack ) ) )
 
 		CHOICE_BUTTON_VIS( 3, "Join Game", open pc_join_unranked;, when( !localvarBool( ui_hideBack ) ) )

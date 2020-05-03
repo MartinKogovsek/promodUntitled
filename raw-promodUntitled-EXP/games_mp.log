@@ -2928,3 +2928,40 @@
  10:49 J;;0;tincxd
  10:51 ShutdownGame:
  10:51 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled-exp\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\promodUntitled\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\1\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_game\mods/raw-promoduntitled-exp\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\promodUntitled - Round: 0/12\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  0:01 J;;0;tincxd
+  0:51 J;a45ec254e3fa156cf270a015116236d4;1;tincxd
+  1:30 ShutdownGame:
+  1:30 ------------------------------------------------------------
+  1:30 ------------------------------------------------------------
+  1:30 InitGame: \fs_game\mods/raw-promoduntitled-exp\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\promodUntitled - Round: 0/12\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:31 J;a45ec254e3fa156cf270a015116236d4;1;tincxd
+  1:31 J;;0;tincxd
+  1:45 K;;0;allies;tincxd;a45ec254e3fa156cf270a015116236d4;1;;tincxd;m40a3_mp;441;MOD_HEAD_SHOT;head
+  1:57 ShutdownGame:
+  1:57 ------------------------------------------------------------
+  1:57 ------------------------------------------------------------
+  1:57 InitGame: \fs_game\mods/raw-promoduntitled-exp\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\promodUntitled - Round: 1/12\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  1:57 J;a45ec254e3fa156cf270a015116236d4;1;tincxd
+  1:57 J;;0;tincxd
+  2:11 K;;0;allies;tincxd;a45ec254e3fa156cf270a015116236d4;1;;tincxd;m40a3_mp;441;MOD_HEAD_SHOT;head
+  2:23 ShutdownGame:
+  2:23 ------------------------------------------------------------
+  2:23 ------------------------------------------------------------
+  2:23 InitGame: \fs_game\mods/raw-promoduntitled-exp\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\promodUntitled - Round: 2/12\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  2:23 J;a45ec254e3fa156cf270a015116236d4;1;tincxd
+  2:23 J;;0;tincxd
+  2:29 Q;a45ec254e3fa156cf270a015116236d4;1;tincxd
+  2:29 P_A;a45ec254e3fa156cf270a015116236d4;1;tincxd;0;2;200;0;0;0
+  2:35 ShutdownGame:
+  2:35 ------------------------------------------------------------
+  2:35 ------------------------------------------------------------
+  2:35 InitGame: \fs_game\mods/raw-promoduntitled-exp\g_compassShowEnemies\0\g_gametype\sd\gamename\Call of Duty 4\mapname\mp_crash\protocol\6\shortversion\1.7\sv_allowAnonymous\0\sv_disableClientConsole\0\sv_floodprotect\4\sv_hostname\promodUntitled - Round: 3/12\sv_maxclients\16\sv_maxPing\0\sv_maxRate\25000\sv_minPing\0\sv_privateClients\5\sv_punkbuster\0\sv_pure\1\sv_voice\0\ui_maxclients\32\version\CoD4 MP 17.9 win_mingw-x86 Feb 27 2019
+  2:35 J;;0;tincxd
+  2:45 J;a45ec254e3fa156cf270a015116236d4;1;tincxd
+  2:48 Q;a45ec254e3fa156cf270a015116236d4;1;tincxd
