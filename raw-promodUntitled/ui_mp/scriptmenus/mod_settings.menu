@@ -48,7 +48,7 @@
 		{
 			rect		-1 -2 1 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
 			origin		1 1
-			text		"< promodUntitled - experimental / v 0.08.1 >< tincxd / 2020 >< www.tincxd.com >"
+			text		"< promodUntitled - experimental / v 0.08.2 >< tincxd / 2020 >< www.tincxd.com >"
 			textfont	UI_FONT_DEFAULT
 			textscale	0.18
 			textalign	ITEM_ALIGN_CENTER
@@ -71,7 +71,8 @@
         // =========================================== CHOICE_DVARFLOATLIST( itemIndex, textArg, dvarArg, strListArg, actionArg ) 
         CHOICE_SECTION_TITLE( 21, "Mod Settings" )
         CHOICE_DVAREDIT_VIS( 22, "@MENU_PLAYER_NAME", ui_name, 15, 15, ;, 1 )
-		CHOICE_DVARFLOATLIST( 23, "Killcam music", kill_mute, { "Off" 0 "On" 1  }, scriptmenuresponse "killcammusic"; )     
+		CHOICE_DVARFLOATLIST( 23, "Killcam music", kill_mute, { "Off" 0 "On" 1  }, scriptmenuresponse "killcammusic"; )
+        CHOICE_DVARFLOATLIST( 24, "Knife", kr_wep, { "Classic" 0 "Combat" 1 "Sickle" 2 "Axe" 3 "Bayonet" 4 }, scriptmenuresponse "kniferoundwep"; )     
 
         CHOICE_SECTION_TITLE( 30, "Visual Settings" )
         CHOICE_DVARYESNO( 31, "Draw Lagometer", cg_drawLagometer, ; )

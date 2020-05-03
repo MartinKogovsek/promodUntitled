@@ -121,6 +121,10 @@ rawfile,promod/timeout.gsc
 rawfile,shock/damage_mp.shock
 
 material,weapon_knife
+material,mtl_combat_knife
+material,mtl_axe_black
+material,mtl_mwr_bayonet
+material,mtl_sickle
 
 material,image_logo
 material,text_logo
@@ -151,6 +155,10 @@ stringtable,promod/customStatsTable.csv
 stringtable,promod/destructible.csv
 
 weapon,mp/knife_mp
+weapon,mp/combat_knife_mp
+weapon,mp/axe_black_mp
+weapon,mp/bayonet_mp
+weapon,mp/sickle_mp
 
 xanim,viewmodel_sog_knife_ads_down
 xanim,viewmodel_sog_knife_ads_up
@@ -165,5 +173,40 @@ xanim,viewmodel_sog_knife_putaway_quick
 xanim,viewmodel_sog_knife_pullout_quick
 xanim,viewmodel_sog_knife_sprint_loop
 
+xanim,mwr_bayonet_ads_down
+xanim,mwr_bayonet_ads_up
+xanim,mwr_bayonet_drop
+xanim,mwr_bayonet_idle
+xanim,mwr_bayonet_raise
+xanim,mwr_bayonet_sprint_in
+xanim,mwr_bayonet_sprint_loop
+xanim,mwr_bayonet_sprint_out
+xanim,mwr_bayonet_stab
+xanim,mwr_bayonet_swipe
+
+xanim,sickle_ads_down
+xanim,sickle_ads_up
+xanim,sickle_drop
+xanim,sickle_idle
+xanim,sickle_raise
+xanim,sickle_sprint_in
+xanim,sickle_sprint_loop
+xanim,sickle_sprint_out
+xanim,sickle_stab
+xanim,sickle_swipe
+
+
+
 xmodel,com_floodlight_on
+
+xmodel,combat_knife
+
+xmodel,viewmodel_axe_black
+
+xmodel,mwr_bayonet_view
+xmodel,mwr_bayonet_world
+
+xmodel,sickle_vm
+
+
 

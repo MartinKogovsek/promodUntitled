@@ -15,7 +15,7 @@ itemDef
 	rect		0 -38 1 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
 	origin		0 0
 	//text		"9 8 7 6 5 4 3 2 1 10 9 8 7 6 5 4 3 2 1 < Promod remod by: tincxd > 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9"
-	text		"< promodUntitled; experimental - v 0.08.1; >"
+	text		"< promodUntitled; experimental - v 0.08.2; >"
 	textfont	UI_FONT_CONSOLE
 	textscale	0.19
 	textalign	ITEM_ALIGN_CENTER
@@ -95,7 +95,7 @@ itemDef
 {
 	rect		12 10 1 1 HORIZONTAL_ALIGN_RIGHT VERTICAL_ALIGN_TOP
 	origin		-20 1 
-	text		"< promodUntitled - experimental / v 0.08.1 >   < www.tincxd.com >"
+	text		"< promodUntitled - experimental / v 0.08.2 >   < www.tincxd.com >"
 	textfont	UI_FONT_DEFAULT
 	textscale	0.18
 	textalign	ITEM_ALIGN_RIGHT

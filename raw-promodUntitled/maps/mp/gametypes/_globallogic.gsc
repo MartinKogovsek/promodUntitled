@@ -55,6 +55,10 @@ init()
 	precacheShader("popmenu_bg");
 
 	precacheItem("knife_mp");
+	precacheItem("bayonet_mp");
+	precacheItem("sickle_mp");
+	precacheItem("axe_black_mp");
+	precacheItem("combat_knife_mp");
 
 	precacheModel("tag_origin");
 	precacheShader("faction_128_usmc");
@@ -371,9 +375,32 @@ removeWeapons()
 	self setclientdvar("g_compassShowEnemies", 1);
 	
 	self takeAllWeapons();
-    self giveWeapon("knife_mp");
-	self givemaxammo("knife_mp");
-	self switchtoweapon( "knife_mp" );	
+
+	for(i=0;i<level.players.size;i++)
+	{
+		player=level.players[i];
+		if(player.pers["knifeRoundWep"] == 0){
+			player giveWeapon("knife_mp");
+			player givemaxammo("knife_mp");
+			player switchtoweapon( "knife_mp" );
+		} else if (player.pers["knifeRoundWep"] == 1){
+			player giveWeapon("combat_knife_mp");
+			player givemaxammo("combat_knife_mp");
+			player switchtoweapon( "combat_knife_mp" );
+		} else if (player.pers["knifeRoundWep"] == 2){
+			player giveWeapon("sickle_mp");
+			player givemaxammo("sickle_mp");
+			player switchtoweapon( "sickle_mp" );
+		} else if (player.pers["knifeRoundWep"] == 3){
+			player giveWeapon("axe_black_mp");
+			player givemaxammo("axe_black_mp");
+			player switchtoweapon( "axe_black_mp" );
+		} else if (player.pers["knifeRoundWep"] == 4){
+			player giveWeapon("bayonet_mp");
+			player givemaxammo("bayonet_mp");
+			player switchtoweapon( "bayonet_mp" );
+		}
+	}
 }
 
 spawnSpectator(origin, angles)
