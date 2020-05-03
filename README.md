@@ -5,6 +5,13 @@
 - [Martin Kogovšek](https://github.com/MartinKogovsek/)
 
 ## Patch notes
+#### V0.09 - [3.5.2020] - GSC: kniferound bomb
+```
+Can plant in kniferound,
+removed server folder,
+added scr_motd to cfg.
+
+```
 #### V0.08 - [1.5.2020] - RAW: endMusic; GSC: misc_scripts
 ```
 Added 3x pUend# sounds, playing at MapVote.
