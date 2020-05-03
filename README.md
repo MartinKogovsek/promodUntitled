@@ -5,7 +5,7 @@
 - [Martin Kogovšek](https://github.com/MartinKogovsek/)
 
 ## Patch notes
-#### V0.08.2 - [3.5.2020] - EXP: initial
+#### V0.08.2 - [3.5.2020] - EXP: Knife
 ```
 Kniferound, multiple weapon options.
 
