@@ -1678,7 +1678,6 @@ startGame()
 	if (isDefined(level.timeout_over) && !level.timeout_over) return;
 	if (isDefined(game["PROMOD_KNIFEROUND"]) && game["PROMOD_KNIFEROUND"])
 	{
-		thread disableBombsites();
 		if (game["PROMOD_MATCH_MODE"] != "pub")
 		{
 			level.timeLimitOverride = true;
