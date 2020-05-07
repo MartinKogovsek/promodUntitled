@@ -121,6 +121,10 @@ rawfile,shock/damage_mp.shock
 
 material,weapon_knife
 
+material,gradient_fadein_b
+material,gradient_fadein_t
+material,gradient_fadein_l
+
 material,loadscreen_mp_backlot
 material,loadscreen_mp_bloc
 material,loadscreen_mp_bog
