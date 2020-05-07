@@ -5,6 +5,13 @@
 - [Martin Kogovšek](https://github.com/MartinKogovsek/)
 
 ## Patch notes
+#### V0.010 - [7.5.2020] - GSC: afk patch, lookforce
+```
+AntiAfk can be set in config (0 = disabled; n>0 = enabled, time; warn text shows at 80% of time set)
+lookforce script for sd, (Author: https://cod4x.me/index.php?/profile/5831-viking/)
+rotstrat script organized and used in all gametypes.
+
+```
 #### V0.09 - [3.5.2020] - GSC: kniferound bomb
 ```
 Can plant in kniferound,

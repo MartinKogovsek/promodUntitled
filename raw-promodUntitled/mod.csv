@@ -76,6 +76,8 @@ rawfile,maps/mp/gametypes/_mapvote.gsc
 rawfile,misc_scripts/afk.gsc
 rawfile,misc_scripts/hostname.gsc
 rawfile,misc_scripts/music.gsc
+rawfile,misc_scripts/lookforce.gsc
+rawfile,misc_scripts/rotstrat.gsc
 
 rawfile,maps/mp/mp_backlot.gsc
 rawfile,maps/mp/mp_bloc.gsc

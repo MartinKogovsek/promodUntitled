@@ -17,7 +17,9 @@ onSpawnPlayer(){
 	self endon ( "inintro" );
 	while( 1 ){
 		self waittill( "spawned_player" );
-		self thread AFKMonitor();
+		if( GetDvar("s_antiAfk") != "0" && GetDvar("s_antiAfk") != "" ){
+			self thread AFKMonitor();
+		}
 	}
 }
 
@@ -38,10 +40,10 @@ AFKMonitor(){
 			else{
 				i = 0;
 			}
-			if(i == 23){
+			if(i == ((GetDvarInt("s_antiAfk") * 8) / 10)){
 				self iPrintlnBOld("^3AFK?");
 			}
-			if(i >= 30){
+			if(i >= GetDvarInt("s_antiAfk")){
 				self.sessionteam = "spectator";
 				self.sessionstate = "spectator";
 				self [[level.spawnSpectator]]();

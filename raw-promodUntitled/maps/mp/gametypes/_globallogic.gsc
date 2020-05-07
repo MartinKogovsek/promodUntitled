@@ -80,7 +80,9 @@ init()
 		setDvar("scr_player_maxhealth", 100);
 
 	thread misc_scripts\afk::init();
-
+	if(level.gametype == "sd"){
+		thread misc_scripts\lookforce::init();
+	}
 }
 
 registerDvars()
@@ -260,19 +262,25 @@ matchStartTimer()
 {
 	visionSetNaked("mpIntro", 0);
 	matchStartText = createServerFontString("objective", 1.5);
-	matchStartText setPoint("CENTER", "CENTER", 0, -60);
+	matchStartText setPoint("CENTER", "CENTER", 0, 0);
 	matchStartText.sort = 1001;
 	matchStartText setText(game["strings"]["match_starting_in"]);
 	matchStartText.foreground = false;
 	matchStartText.hidewheninmenu = true;
+	matchStartText.glowcolor = (0.000, 0.455, 0.851);
+	matchStartText.glowalpha = 1;
+
 	matchStartTimer = createServerTimer("objective", 1.4);
-	matchStartTimer setPoint("CENTER", "CENTER", 0, -45);
-	matchStartTimer setTimer(level.prematchPeriod);
+	matchStartTimer setPoint("CENTER", "CENTER", 0, 0);
+	matchStartTimer misc_scripts\rotstrat::setStarttime(level.prematchPeriod);
 	matchStartTimer.sort = 1001;
 	matchStartTimer.foreground = false;
 	matchStartTimer.hideWhenInMenu = true;
+
 	wait level.prematchPeriod;
+
 	visionSetNaked(getDvar("mapname"), 1);
+
 	matchStartText destroyElem();
 	matchStartTimer destroyElem();
 }
@@ -321,7 +329,8 @@ spawnPlayer()
 	prof_begin("spawnPlayer_postUTS");
 	if (isDefined(game["PROMOD_KNIFEROUND"]) && game["PROMOD_KNIFEROUND"] && isDefined(level.strat_over) && level.strat_over) self thread removeWeapons();
 	else self maps\mp\gametypes\_class::giveLoadout(self.team, self.class);
-	if (level.inPrematchPeriod && game["promod_do_readyup"]) self freezeControls(true);
+	if (level.inPrematchPeriod && game["promod_do_readyup"]) 
+		self freezeControls(true);
 	else if (level.inPrematchPeriod)
 	{
 		self freezeControls(true);
