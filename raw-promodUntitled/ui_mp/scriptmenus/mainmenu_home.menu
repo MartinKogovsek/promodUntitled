@@ -1,0 +1,102 @@
+#include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
+#include "ui_mp/menu_common.inc"
+
+#include "ui_mp/menustyle.inc"
+#include "ui_mp/choices_setup_teams.menu"
+
+{
+	menuDef
+	{
+		name			"mainmenu_home"
+		rect			0 0 640 480
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_EMPTY
+		blurWorld		7
+		onOpen
+		{
+			focusFirst;
+		}
+		onEsc
+		{
+			close self;
+		}
+
+		#include "ui_mp/ingamebg.inc"
+
+		//==BUTTONS============================================================================================================================================
+		itemDef //TOP BACKGROUND
+		{
+			rect -500 0 1000 77 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_TOP
+			style WINDOW_STYLE_FILLED
+			backcolor 0 0 0 .4
+			visible 		1
+			decoration
+		}
+		itemDef //TOP TEXT UNDERLINE
+		{
+			rect 0 35 220 1 HORIZONTAL_ALIGN_LEFT VERTICAL_ALIGN_TOP
+			style WINDOW_STYLE_FILLED
+			backcolor 0.498 0.859 1 0.5
+			visible 		1
+			decoration
+		}
+		itemDef //TOP TEXT
+		{
+			rect            220 36 0 0 HORIZONTAL_ALIGN_LEFT VERTICAL_ALIGN_TOP
+			style           WINDOW_STYLE_FILLED
+			type            ITEM_TYPE_TEXT
+			text            "promodUntitled"
+			forecolor       0.498 0.859 1 0.65
+			textscale       0.5
+			textstyle	    ITEM_TEXTSTYLE_SHADOWED
+			textfont	    UI_FONT_OBJECTIVE
+			textalign       ITEM_ALIGN_RIGHT
+			visible         1
+			decoration
+		}
+		itemDef //BOTTOM BACKGROUND
+		{
+			rect -500 -35 1000 35 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
+			style WINDOW_STYLE_FILLED
+			backcolor 0 0 0 .4
+			visible 		1
+			decoration
+		}
+
+		// =========================================== CHOICE_DVARFLOATLIST( itemIndex, textArg, dvarArg, strListArg, actionArg ) 
+
+		SURF_BUTTON_TOP_ACTIVE( "0", -40, 40, 80, 35, "HOME", 1 )
+		SURF_BUTTON_TOP( "1", 40, 40, 80, 35, "PLAY", play "mouse_click"; close self; open class, 1 )
+		SURF_BUTTON_TOP( "2", 120, 40, 80, 35, "LOADOUT", play "mouse_click"; close self; open mainmenu_loadout, 1 )
+		SURF_BUTTON_TOP( "3", 200, 40, 80, 35, "SETTINGS", play "mouse_click"; close self; open mainmenu_settings, 1 )
+
+		//==
+
+		//==
+
+		SURF_BUTTON_BOT( "4", -40, 445, 80, 35, "Leave Game", play "mouse_click"; open popup_leavegame;, 1 0.255 0.212, 1 )
+
+		SURF_BUTTON_BOT( "5", 40, 445, 80, 35, "Options", close self; play "mouse_click"; open main_options; execnow "set ui_allow_graphic_change 1";, 0.667 0.667 0.667, 1 )
+		SURF_BUTTON_BOT( "6", 120, 445, 80, 35, "Controls", close self; play "mouse_click"; open main_controls, 0.667 0.667 0.667, 1 )
+
+		SURF_BUTTON_BOT( "7", 420, 445, 80, 35, "Admin Panel", play "mouse_click"; scriptMenuResponse "changeteam";, 1 0.600 0.106, 1 )
+
+
+		// ==========================================================================================================
+        itemDef //TOP TEXT
+		{
+			rect            0 36 0 0 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+			style           WINDOW_STYLE_FILLED
+			type            ITEM_TYPE_TEXT
+			text            "IN DEVELOPMENT"
+			forecolor       0.498 0.859 1 0.65
+			textscale       1
+			textstyle	    ITEM_TEXTSTYLE_SHADOWED
+			textfont	    UI_FONT_OBJECTIVE
+			textalign       ITEM_ALIGN_CENTER
+			visible         1
+			decoration
+		}
+	}
+}
