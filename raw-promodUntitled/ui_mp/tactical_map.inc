@@ -24,7 +24,7 @@ itemDef
 	origin			MAP_OFFSET
 	style           WINDOW_STYLE_SHADER
 	background		"white"
-	forecolor		0.498 0.859 1 0.1
+	forecolor		0 0 0 0.4
 	visible			1
 	decoration
 }
@@ -33,7 +33,7 @@ itemDef
 	name			"mini_map2"
 	rect			ORIGIN_MAP_FRAME MAP_WIDTH MAP_WIDTH RIGHTITEM_ALIGN VERTICAL_ALIGN_TOP
 	origin			MAP_OFFSET
-	forecolor		1 1 1 1
+	forecolor		0.5 0.5 0.5 1
 	background		"compass_map_default"
 	ownerdraw		CG_PLAYER_FULLMAP_MAP
 	visible			1
