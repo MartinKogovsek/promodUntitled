@@ -1,30 +1,46 @@
-/*
-  Copyright (c) 2009-2017 Andreas Göransson <andreas.goransson@gmail.com>
-  Copyright (c) 2009-2017 Indrek Ardel <indrek@ardel.eu>
-
-  This file is part of Call of Duty 4 Promod.
-
-  Call of Duty 4 Promod is licensed under Promod Modder Ethical Public License.
-  Terms of license can be found in LICENSE.md document bundled with the project.
-*/
-
 #include "ui/menudef.h"
+#define WIDESCREEN_OFFSET			107 0
 {
 	menuDef
 	{
-		name			"connect"
-		style			WINDOW_STYLE_FILLED
-		fullScreen		MENU_FALSE
-		focusColor		COLOR_FOCUSED
-		visible			MENU_FALSE
-		backcolor		1 1 1 1
-		background		"$levelBriefing"
-		rect			FULLSCREEN_WIDE
+		name				"connect"
+		style				WINDOW_STYLE_FILLED
+		fullScreen			MENU_FALSE
+		focusColor			COLOR_FOCUSED
+		visible				MENU_FALSE
+		backcolor			1 1 1 1
+		background			"$levelBriefing"
+		rect				FULLSCREEN_WIDE
 
 		itemDef
 		{
 			style			WINDOW_STYLE_FILLED
-			rect			-128 -40 260 4 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
+			rect			0 0 1000 1000 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+			backcolor		0 0 0 0.4
+			visible			1
+			decoration
+		}
+		itemDef
+		{
+			style			WINDOW_STYLE_SHADER
+			rect			0 0 1000 75 HORIZONTAL_ALIGN_FULLSCREEN 0
+			background		"gradient_top"
+			visible			1
+			decoration
+		}
+		itemDef
+		{
+			style			WINDOW_STYLE_SHADER
+			rect			0 405 1000 75 HORIZONTAL_ALIGN_FULLSCREEN 0
+			background		"gradient_bottom"
+			visible			1
+			decoration
+		}
+
+		itemDef
+		{
+			style			WINDOW_STYLE_FILLED
+			rect			-301 -39 600 2 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
 			origin			107 0
 			backcolor		0 0 0 0.8
 			visible			1
@@ -34,11 +50,23 @@
 		{
 			name			"loadbar"
 			style			WINDOW_STYLE_LOADBAR
-			rect			-127 -39 258 2 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
+			rect			-300 -38.5 600 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
 			origin			107 0
 			background		"white"
 			visible			1
 			decoration
+		}
+		itemDef
+		{
+			rect			-300 -18 10 100 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
+			text 			"^5#^7promodUntitled v0.10.0.2"
+			textfont		UI_FONT_OBJECTIVE
+			textscale		0.2
+			textalign		ITEM_ALIGN_LEFT
+			textstyle		ITEM_TEXTSTYLE_SHADOWED
+			origin			WIDESCREEN_OFFSET
+			visible 		1
+			decoration 
 		}
 	}
 }

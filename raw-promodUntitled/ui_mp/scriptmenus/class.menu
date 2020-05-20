@@ -24,6 +24,7 @@
 
 		#include "ui_mp/ingamebg.inc"
 		#include "ui_mp/tactical_map.inc";
+		#include "ui_mp/teamicon.inc"
 
 		//==BUTTONS============================================================================================================================================
 		itemDef //TOP BACKGROUND
