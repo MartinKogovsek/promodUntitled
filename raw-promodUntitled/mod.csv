@@ -19,6 +19,10 @@ menufile,ui_mp/scriptmenus/team_marinesopfor.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor_flipped.menu
 menufile,ui_mp/scriptmenus/vote.menu
 
+menufile,ui_mp/scriptmenus/mainmenu_home.menu
+menufile,ui_mp/scriptmenus/mainmenu_loadout.menu
+menufile,ui_mp/scriptmenus/mainmenu_settings.menu
+
 rawfile,maps/createfx/mp_backlot_fx.gsc
 rawfile,maps/createfx/mp_bloc_fx.gsc
 rawfile,maps/createfx/mp_bog_fx.gsc

@@ -56,6 +56,10 @@ init()
 	precacheMenu("demo");
 	precacheMenu("vote");
 
+	precacheMenu("mainmenu_home");
+	precacheMenu("mainmenu_loadout");
+	precacheMenu("mainmenu_settings");
+
 	level thread onPlayerConnect();
 }
 

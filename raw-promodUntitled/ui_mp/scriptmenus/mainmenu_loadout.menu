@@ -1,5 +1,3 @@
-
-
 #include "ui/menudef.h"
 #include "ui_mp/common_macro.inc"
 #include "ui_mp/menu_common.inc"
@@ -10,19 +8,22 @@
 {
 	menuDef
 	{
-		name			"team_marinesopfor_flipped"
+		name			"mainmenu_loadout"
 		rect			0 0 640 480
 		focuscolor		COLOR_FOCUSED
 		style			WINDOW_STYLE_EMPTY
 		blurWorld		7
-		legacySplitScreenScale
 		onOpen
 		{
-			setLocalVarInt ui_highlight "";
+			focusFirst;
+		}
+		onEsc
+		{
+			close self;
 		}
 
 		#include "ui_mp/ingamebg.inc"
-		#include "ui_mp/tactical_map.inc";
+		#include "ui_mp/dev_card.inc"
 
 		//==BUTTONS============================================================================================================================================
 		itemDef //TOP BACKGROUND
@@ -67,32 +68,22 @@
 		// =========================================== CHOICE_DVARFLOATLIST( itemIndex, textArg, dvarArg, strListArg, actionArg ) 
 
 		SURF_BUTTON_TOP( "0", -40, 40, 80, 35, "HOME", play "mouse_click"; close self; open mainmenu_home, 1 )
-		SURF_BUTTON_TOP_ACTIVE( "1", 40, 40, 80, 35, "PLAY", 1 )
-		SURF_BUTTON_TOP( "2", 120, 40, 80, 35, "LOADOUT", play "mouse_click"; close self; open mainmenu_loadout, 1 )
+		SURF_BUTTON_TOP( "1", 40, 40, 80, 35, "PLAY", play "mouse_click"; close self; open class, 1 )
+		SURF_BUTTON_TOP_ACTIVE( "2", 120, 40, 80, 35, "LOADOUT", 1 )
 		SURF_BUTTON_TOP( "3", 200, 40, 80, 35, "SETTINGS", play "mouse_click"; close self; open mainmenu_settings, 1 )
 
 		//==
-		SURF_BUTTON_CHOICE_TEAM( "8", -40, 120, 150, 80, "Join Attack", play "mouse_click"; scriptMenuResponse "allies";, "attack", 1 )
-    	SURF_BUTTON_CHOICE_TEAM( "9", -40, 210, 150, 80, "Join Defence", play "mouse_click"; scriptMenuResponse "axis";, "defence", 1 )
 
-    	SURF_BUTTON_CHOICE( "10", -40, 300, 150, 30, "Auto Assign", play "mouse_click"; scriptMenuResponse "autoassign";, 1 )
-
-		SURF_BUTTON_CHOICE( "11", -40, 340, 150, 30, "Shoutcast", play "mouse_click"; scriptMenuResponse "shoutcast";, 1 )
 		//==
 
-		SURF_BUTTON_BOT( "4", -40, 445, 80, 35, "Leave Game", play "mouse_click"; open popup_leavegame;, 1 0.255 0.212, 1 )
+		SURF_BUTTON_BOT( "4", -40, 445, 80, 35, "Leave Game", open popup_leavegame;, 1 0.255 0.212, 1 )
 
 		SURF_BUTTON_BOT( "5", 40, 445, 80, 35, "Options", play "mouse_click"; close self; open main_options; execnow "set ui_allow_graphic_change 1";, 0.667 0.667 0.667, 1 )
 		SURF_BUTTON_BOT( "6", 120, 445, 80, 35, "Controls", play "mouse_click"; close self; open main_controls, 0.667 0.667 0.667, 1 )
 
-		SURF_BUTTON_BOT( "7", 420, 445, 80, 35, "Admin Panel", play "mouse_click";  scriptMenuResponse "changeteam";, 1 0.600 0.106, 1 )
+		SURF_BUTTON_BOT( "7", 420, 445, 80, 35, "Admin Panel", play "mouse_click"; scriptMenuResponse "changeteam";, 1 0.600 0.106, 1 )
 
 
 		// ==========================================================================================================
-
-		execKey "1" { scriptMenuResponse "allies"; }
-		execKey "2" { scriptMenuResponse "axis"; }
-		execKey "3" { scriptMenuResponse "autoassign"; }
-		execKey "4" { scriptMenuResponse "shoutcast"; }
 	}
 }
