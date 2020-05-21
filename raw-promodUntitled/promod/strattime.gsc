@@ -87,7 +87,7 @@ stratTimer()
 
 	matchStartTimer = createServerTimer("objective", 1.4);
 	matchStartTimer setPoint("CENTER", "CENTER", 0, 0 );
-	matchStartTimer misc_scripts\rotstrat::setStarttime(game["PROMOD_STRATTIME"] + level.prematchPeriod * int(getDvarInt("promod_allow_strattime") && isDefined(game["CUSTOM_MODE"]) && game["CUSTOM_MODE"] && (level.gametype == "sd" || level.gametype == "sr")));
+	matchStartTimer misc_scripts\strat\rotstrat::setStarttime(game["PROMOD_STRATTIME"] + level.prematchPeriod * int(getDvarInt("promod_allow_strattime") && isDefined(game["CUSTOM_MODE"]) && game["CUSTOM_MODE"] && (level.gametype == "sd" || level.gametype == "sr")));
 	matchStartTimer.sort = 1001;
 	matchStartTimer.foreground = false;
 	matchStartTimer.hideWhenInMenu = false;

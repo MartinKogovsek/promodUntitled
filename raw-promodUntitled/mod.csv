@@ -76,8 +76,13 @@ rawfile,maps/mp/gametypes/_mapvote.gsc
 rawfile,misc_scripts/afk.gsc
 rawfile,misc_scripts/hostname.gsc
 rawfile,misc_scripts/music.gsc
-rawfile,misc_scripts/lookforce.gsc
-rawfile,misc_scripts/rotstrat.gsc
+
+rawfile,misc_scripts/strat/lookforce.gsc
+rawfile,misc_scripts/strat/rotstrat.gsc
+rawfile,misc_scripts/strat/loadoutInfo.gsc
+
+rawfile,misc_scripts/common/_precache.gsc
+rawfile,misc_scripts/common/hud_common.gsc
 
 rawfile,maps/mp/mp_backlot.gsc
 rawfile,maps/mp/mp_bloc.gsc
@@ -124,6 +129,7 @@ material,weapon_knife
 material,gradient_fadein_b
 material,gradient_fadein_t
 material,gradient_fadein_l
+material,cutbox_bg_hud
 
 material,loadscreen_mp_backlot
 material,loadscreen_mp_bloc

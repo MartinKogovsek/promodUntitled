@@ -52,15 +52,14 @@ init()
 
 	registerDvars();
 
-	precacheShader("popmenu_bg");
-
-	precacheItem("knife_mp");
+	thread misc_scripts\common\_precache::init();
 
 	precacheModel("tag_origin");
 	precacheShader("faction_128_usmc");
 	precacheShader("faction_128_arab");
 	precacheShader("faction_128_ussr");
 	precacheShader("faction_128_sas");
+
 	if (!isDefined(game["tiebreaker"])) game["tiebreaker"] = false;
 	if (!isDefined(game["gamestarted"])) promod\modes::main();
 
@@ -81,7 +80,8 @@ init()
 
 	thread misc_scripts\afk::init();
 	if(level.gametype == "sd"){
-		thread misc_scripts\lookforce::init();
+		thread misc_scripts\strat\lookforce::init();
+		thread misc_scripts\strat\loadoutInfo::init();
 	}
 }
 
@@ -272,7 +272,7 @@ matchStartTimer()
 
 	matchStartTimer = createServerTimer("objective", 1.4);
 	matchStartTimer setPoint("CENTER", "CENTER", 0, 0);
-	matchStartTimer misc_scripts\rotstrat::setStarttime(level.prematchPeriod);
+	matchStartTimer misc_scripts\strat\rotstrat::setStarttime(level.prematchPeriod);
 	matchStartTimer.sort = 1001;
 	matchStartTimer.foreground = false;
 	matchStartTimer.hideWhenInMenu = true;
