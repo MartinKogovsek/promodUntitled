@@ -59,7 +59,7 @@
 		itemDef
 		{
 			rect			-300 -18 10 100 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
-			text 			"^5#^7promodUntitled v0.10.0.2"
+			exp				text ( ( dvarstring( "pu_mod_version" ) ) );
 			textfont		UI_FONT_OBJECTIVE
 			textscale		0.2
 			textalign		ITEM_ALIGN_LEFT

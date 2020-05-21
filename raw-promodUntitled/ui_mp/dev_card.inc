@@ -13,7 +13,7 @@ itemDef
 {
 	rect		0 -36 1 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
 	origin		0 0
-	text		"#promodUntitled v0.10.0.2"
+	exp			text ( ( dvarstring( "pu_mod_version" ) ) );
 	textscale	0.3
 	textalign	ITEM_ALIGN_CENTER
 	textstyle	ITEM_TEXTSTYLE_SHADOWED

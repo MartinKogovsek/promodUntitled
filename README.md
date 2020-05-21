@@ -5,7 +5,7 @@
 - [Martin Kogovšek](https://github.com/MartinKogovsek/)
 
 ## Patch notes
-#### V0.10.0.2 - [21.5.2020] - MENU: menu map, connect, teamicon, cutbox
+#### V0.10.0.2 - [21.5.2020] - MENU: menu_map, connect, teamicon, cutbox
 ![Alt Text](https://i.imgur.com/XUqKXCa.png)
 ```
 updated connect menu,
