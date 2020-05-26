@@ -4,6 +4,10 @@
 - [Chandima Bandara](https://github.com/dev-pos/)
 - [Martin Kogovšek](https://github.com/MartinKogovsek/)
 
+## Contributing & feedback
+Pull requests are welcome.
+For feedback or issues, write us or open an issue.
+
 ## Patch notes
 #### V0.12.0.2 - [21.5.2020] - MERGE: MENU to Master
 ![Alt Text](https://i.imgur.com/cWbKAFl.png)
