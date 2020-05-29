@@ -21,7 +21,7 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_b" \
-	forecolor		0.498 0.859 1 0.1 \
+	forecolor		0.4 0.8 1 0.1 \
 } \
 itemDef \
 { \
@@ -29,7 +29,7 @@ itemDef \
 	name			"button_over"id \
 	rect			(x+90) (y + h) w 2 SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_FILLED \
-	backcolor		0.498 0.859 1 0.1 \
+	backcolor		0.4 0.8 1 0.1 \
 } \
 itemDef \
 { \
@@ -127,7 +127,7 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_b" \
-	forecolor		0.498 0.859 1 0.25 \
+	forecolor		0.4 0.8 1 0.25 \
 } \
 itemDef \
 { \
@@ -142,7 +142,7 @@ itemDef \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
 	exp			text( itemName ) \
-	forecolor 	0.498 0.859 1 0.5 \
+	forecolor 	0.4 0.8 1 1 \
 	type		ITEM_TYPE_BUTTON \
 	textfont	UI_FONT_NORMAL \
 	textstyle	ITEM_TEXTSTYLE_NORMAL \
@@ -166,7 +166,7 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_l" \
-	forecolor		0 0 0 .4 \
+	forecolor		0 0 0 .5 \
 } \
 itemDef \
 { \
@@ -183,7 +183,7 @@ itemDef \
 	rect			(x+82) y 8 h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein" \
-	forecolor		0.498 0.859 1 0.15 \
+	forecolor		0.4 0.8 1 0.15 \
 } \
 itemDef \
 { \
@@ -192,13 +192,13 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_t" \
-	forecolor		0.498 0.859 1 0.25 \
+	forecolor		0.4 0.8 1 0.25 \
 } \
 itemDef \
 { \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
-	forecolor	0.498 0.859 1 0.8 \
+	forecolor	0.4 0.8 1 1 \
 	exp			text( itemName ) \
 	type		ITEM_TYPE_BUTTON \
 	textfont	UI_FONT_NORMAL \
@@ -238,7 +238,7 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_l" \
-	forecolor		0 0 0 .4 \
+	forecolor		0 0 0 .5 \
 } \
 itemDef \
 { \
@@ -246,7 +246,7 @@ itemDef \
 	style			WINDOW_STYLE_SHADER \
 	rect			(x+100) (y+20) (h-20) (h-20) SURF_BUTTON_ALIGN \
 	exp				material( dvarString( "g_TeamIcon_Allies" ) ); \
-	forecolor		1 1 1 0.275 \
+	forecolor		1 1 1 0.5 \
 } \
 itemDef \
 { \
@@ -254,7 +254,7 @@ itemDef \
 	style			WINDOW_STYLE_SHADER \
 	rect			(x+100) (y+20) (h-20) (h-20) SURF_BUTTON_ALIGN \
 	exp				material( dvarString( "g_TeamIcon_Axis" ) ); \
-	forecolor		1 1 1 0.275 \
+	forecolor		1 1 1 0.5 \
 } \
 itemDef \
 { \
@@ -271,7 +271,7 @@ itemDef \
 	rect			(x+82) y 8 h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein" \
-	forecolor		0.498 0.859 1 0.15 \
+	forecolor		0.4 0.8 1 0.15 \
 } \
 itemDef \
 { \
@@ -280,13 +280,13 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_t" \
-	forecolor		0.498 0.859 1 0.25 \
+	forecolor		0.4 0.8 1 0.25 \
 } \
 itemDef \
 { \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
-	forecolor	0.498 0.859 1 0.8 \
+	forecolor	0.4 0.8 1 1 \
 	exp			text( itemName ) \
 	type		ITEM_TYPE_BUTTON \
 	textfont	UI_FONT_NORMAL \

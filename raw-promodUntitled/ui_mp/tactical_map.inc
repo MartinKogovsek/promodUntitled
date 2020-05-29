@@ -33,7 +33,7 @@ itemDef
 	name			"mini_map2"
 	rect			ORIGIN_MAP_FRAME MAP_WIDTH MAP_WIDTH RIGHTITEM_ALIGN VERTICAL_ALIGN_TOP
 	origin			MAP_OFFSET
-	forecolor		0.5 0.5 0.5 1
+	forecolor		0.5 0.5 0.5 0.8
 	background		"compass_map_default"
 	ownerdraw		CG_PLAYER_FULLMAP_MAP
 	visible			1

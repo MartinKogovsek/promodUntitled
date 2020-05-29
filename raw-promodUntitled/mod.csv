@@ -18,6 +18,7 @@ menufile,ui_mp/scriptmenus/shoutcast_setup_binds.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor.menu
 menufile,ui_mp/scriptmenus/team_marinesopfor_flipped.menu
 menufile,ui_mp/scriptmenus/vote.menu
+menufile,ui_mp/scriptmenus/tester.menu
 
 menufile,ui_mp/scriptmenus/mainmenu_home.menu
 menufile,ui_mp/scriptmenus/mainmenu_loadout.menu

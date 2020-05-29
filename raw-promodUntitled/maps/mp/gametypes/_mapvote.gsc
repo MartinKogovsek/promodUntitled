@@ -23,7 +23,7 @@ startvote()
 		player setClientDvar( "hud_ShowWinner", "0" );
 		//player setClientDvar( "cg_drawgun", "0" ); //dvar is still 0 on next map
 		player setClientDvar( "cg_drawcrosshair", "0" );
-		player setClientDvar( "hud_voteText", "^3Vote for next map" );
+		player setClientDvar( "hud_voteText", "Vote for next map" );
 		player setClientDvar( "ui_inVote", "1" );
 	}
 	thread handleVoting();
@@ -31,8 +31,9 @@ startvote()
 	for(i=0;i<level.players.size;i++) 	 
 	{
 		player=level.players[i]; 		
-		player setClientDvar( "hud_voteText", "^3Next Map:" );
+		player setClientDvar( "hud_voteText", "Next Map:" );
 		level.voteTimetext destroy();
+		level.voteTimetextBck destroy();
 		player setClientDvar( "hud_ShowWinner", "1" );
 	}
 	level.invoting=2; 	
@@ -153,8 +154,8 @@ updateMenuDisplay()
 			self setClientDvar(("hud_mapVotes"+i), level.mapVotes[i]);
 			self setClientDvar(("hud_mapName"+i), level.mapTok[i]);
 		}
-		self setClientDvar(("hud_mapVotes"+getHighestVotedMap()), ("^3"+level.mapVotes[getHighestVotedMap()]));
-		self setClientDvar(("hud_mapName"+getHighestVotedMap()), ("^3"+level.mapTok[getHighestVotedMap()]));
+		self setClientDvar(("hud_mapVotes"+getHighestVotedMap()), (level.mapVotes[getHighestVotedMap()]));
+		self setClientDvar(("hud_mapName"+getHighestVotedMap()), (level.mapTok[getHighestVotedMap()]));
 		wait .5; 	 
 	}
 
@@ -186,7 +187,7 @@ handleVoting()
 		{
 			player=level.players[i]; 			
 			player setClientDvar(("hud_WinningName"), getPreviewName(toLower(level.mapTok[winNumberA])));
-			player setClientDvar(("hud_WinningMap"), ("^3" + level.mapTok[winNumberA]));
+			player setClientDvar(("hud_WinningMap"), (level.mapTok[winNumberA]));
 			
 		}
 		wait 1; 	 
@@ -310,18 +311,30 @@ getMapNameString( mapName )
 }
 
 addVoteTimer(camtime){
+	level.voteTimetextBck = newHudElem();
+	level.voteTimetextBck.archived = false;
+	level.voteTimetextBck.color = ( 0, 0, 0 );
+	level.voteTimetextBck setShader("cutbox_bg_hud", 40, 30);
+	level.voteTimetextBck.alignx = "center";
+	level.voteTimetextBck.alignY = "middle";
+	level.voteTimetextBck.horzAlign = "center";
+	level.voteTimetextBck.vertAlign = "middle";
+	level.voteTimetextBck.y = -152;
+	level.voteTimetextBck.x = 233;
+	level.voteTimetextBck.alpha = 0.5;
+	level.voteTimetextBck.foreGround = true;
+
 	level.voteTimetext = newHudElem();
 	level.voteTimetext.archived = false;
 	level.voteTimetext setTimer(camtime);
-	level.voteTimetext.color = (1.000, 1.000, 0.000);
+	level.voteTimetext.color = ( 0.4, 0.8, 1 );
 	level.voteTimetext.alignx = "center";
 	level.voteTimetext.alignY = "middle";
 	level.voteTimetext.horzAlign = "center";
 	level.voteTimetext.vertAlign = "middle";
 	level.voteTimetext.y = -152;
-	level.voteTimetext.x = 235;
+	level.voteTimetext.x = 232;
 	level.voteTimetext.alpha = 1;
-	level.voteTimetext.fontScale = 1.5;
-	level.voteTimetext.font = "objective";
+	level.voteTimetext.fontScale = 1.6;
 	level.voteTimetext.foreGround = true;
 }

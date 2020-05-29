@@ -90,7 +90,7 @@ loadoutInfoHudElem( who, header, itemname, item, itemtype, x, y, shader, shaderw
 	hud[2].y = y + 25;
 	hud[2] SetText(header);
 	hud[2].fontScale = 1.55;
-	hud[2].color = ( 0.000, 0.455, 0.851 ); 
+	hud[2].color = ( 0.2, 0.73, 1 ); 
 	hud[2] FadeOverTime(0.5);
 	hud[2].alpha = 1;
 	hud[2].foreGround = true;

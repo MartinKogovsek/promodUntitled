@@ -28,7 +28,7 @@ strTime( time ){
 			numHuds[k].y = cos(i + (k * 40) + ((9-time)*40)) * 100; //calc y
 
 			if(numHuds[k].y > 99 && fadeNum == k) //color the number after passed
-				numHuds[k].color = ( 0.000, 0.455, 0.851 ); 
+				numHuds[k].color = ( 0.2, 0.73, 1 ); 
 
 			if(numHuds[k].x > 50){ //fadeout numbers
 				if(fadeNum == k){
@@ -70,7 +70,7 @@ newNumHud(text){
 	newhud SetText(text);
 	newhud.fontScale = 1.5;
 	newhud.font = "objective";
-	newhud.glowcolor = (0.000, 0.455, 0.851);
+	newhud.glowcolor = ( 0.000, 0.455, 0.851 );
 	newhud.glowalpha = 1;
 
 	return newhud;
