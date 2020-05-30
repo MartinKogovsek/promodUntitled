@@ -66,7 +66,7 @@ Also updated promod website and hostname text in cfg.
 
 ```
 #### V0.05 - [28.4.2020] - RAW: vote.menu; GSC: _mapvote.gsc
-![Alt Text](https://i.imgur.com/KgJLIUQ.png)
+![Alt Text](https://i.imgur.com/Rk8NaaD.png)
 ```
 Added a new strattime, finallkillcam ends with fadein blackscreen, which fades into strattime.
 Knife_mp is now in kniferound.
