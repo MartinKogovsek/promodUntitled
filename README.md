@@ -9,6 +9,14 @@ Pull requests are welcome.
 For feedback or issues, write us or open an issue.
 
 ## Patch notes
+#### V0.12.1.0 - STABLE - [5.12.2020] - GSC: fixed loadoutInfo
+```
+STABLE VERSION
+
+Fixed mapvote,
+Fixed loadoutInfo.
+
+```
 #### V0.12.0.3 - [5.12.2020] - MENU btn style, settings
 ![Alt Text](https://i.imgur.com/SQROhYw.png)
 ```
