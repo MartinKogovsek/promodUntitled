@@ -1,7 +1,8 @@
 
-Logfile opened on Sat Dec 05 16:50:30 2020
+Logfile opened on Sun Dec 06 00:23:19 2020
 
 Waited 32 msec for asset 'vehicle_80s_sedan1_red_destroyed' of type 'xmodel'.
+Waited 2 msec for asset 'vehicle_80s_sedan1_brn_mirror_R' of type 'xmodel'.
 frag_grenade_mp: WEAPON_FRAGGRENADE
 frag_grenade_short_mp: WEAPON_FRAGGRENADE
 smoke_grenade_mp: WEAPON_SMOKEGRENADE
@@ -59,6 +60,7 @@ Script tried to precache the menu 'mainmenu_home' more than once
 Script tried to precache the menu 'mainmenu_loadout' more than once
 Script tried to precache the menu 'mainmenu_settings' more than once
 tincxd : dropped gamestate, resending
+Unknown connectionless packet command: .
 Received packet 0 of stats data
 Received packet 1 of stats data
 Received packet 2 of stats data
@@ -69,11 +71,11 @@ Received packet 6 of stats data
 tincxd : dropped gamestate, resending
 SV_SendClientGameState() for tincxd
 Going from CS_CONNECTED to CS_CLIENTLOADING for tincxd
-Sending 12743 bytes in gamestate to client: 0
+Sending 12745 bytes in gamestate to client: 0
 Retrieving global configuration... 
 HTTPRequest: Open URL https://raw.githubusercontent.com:443/callofduty4x/CoD4x_Server/master/globalconfig.cfg
 Connecting to: raw.githubusercontent.com:443
-Resolved raw.githubusercontent.com:443 to: 151.101.240.133:443
+Resolved raw.githubusercontent.com:443 to: 151.101.12.133:443
 CL_ParseGamestateLegacy():
 Loaded zone 'mp_crash'
 frag_grenade_mp: WEAPON_FRAGGRENADE
@@ -97,7 +99,7 @@ LOADING...  - server models
 LOADING...  - game media done
 LOADING... clients
 CL_InitCGame:  0.04 seconds
-Com_TouchMemory: 0 msec. Using sum: -1072555151
+Com_TouchMemory: 0 msec. Using sum: 1173887857
 Hiding channel: gamenotify
 Hiding channel: obituary
 Adding channel: gamenotify
@@ -113,18 +115,8 @@ Giving tincxd a 999 ping - >999 calculated ping:
 Giving tincxd a 999 ping - >999 calculated ping:
 Giving tincxd a 999 ping - >999 calculated ping:
 WARNING: no alias prefix defined, using default
-Playing smoke grenades at time 1650
+Playing smoke grenades at time 1700
 WARNING: no alias prefix defined, using default
-SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Recovering lost device...
-Using 4x anti-aliasing
-Initializing render targets...
-Requested frame buffer to be 24-bit color with 8-bit alpha
-DirectX returned a frame buffer that is 24-bit color with 8-bit alpha
-Initializing static model cache...
-Initializing dynamic buffers...
-Initializing particle cloud buffer...
-Creating Direct3D queries...
-Finished recovering lost device.
 quitting...
 ----- CL_Shutdown -----
 Error: Sub_57B5C0: Failed to get line info!

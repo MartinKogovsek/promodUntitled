@@ -11,7 +11,8 @@ loadoutInfo(player){
 	self endon ("disconnect");
 	self endon ("death");
 	self waittill("spawned_player");
-	if(game["roundsplayed"] != 0){
+
+	if(game["roundsplayed"] != 0 && !(level.strat_over)){
 		primaryWeapon=player.pers[player.pers["class"]]["loadout_primary"];
 		secondaryWeapon=player.pers[player.pers["class"]]["loadout_secondary"];
 
@@ -62,7 +63,6 @@ loadoutInfoHudElem( who, header, itemname, item, itemtype, x, y, shader, shaderw
 	hud[0].foreGround = false;
 	hud[0].hideWhenInMenu = him;
 	
-	hud[1] = newHudElem();
 	hud[1].x = x + (shaderw / 2);
 	hud[1].y = y + (shaderh / 6);
 	if(itemtype == "gun"){
@@ -85,7 +85,6 @@ loadoutInfoHudElem( who, header, itemname, item, itemtype, x, y, shader, shaderw
 	hud[1].foreGround = true;
 	hud[1].hideWhenInMenu = him;
 
-	hud[2] = newHudElem();
 	hud[2].x = x + 15;
 	hud[2].y = y + 25;
 	hud[2] SetText(header);
@@ -96,7 +95,6 @@ loadoutInfoHudElem( who, header, itemname, item, itemtype, x, y, shader, shaderw
 	hud[2].foreGround = true;
 	hud[2].hideWhenInMenu = him;
 
-	hud[3] = newHudElem();
 	hud[3].x = x + 15;
 	hud[3].y = y + (shaderh / 1.45);
 	hud[3] SetText(itemname);

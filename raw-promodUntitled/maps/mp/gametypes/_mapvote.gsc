@@ -32,8 +32,10 @@ startvote()
 	{
 		player=level.players[i]; 		
 		player setClientDvar( "hud_voteText", "Next Map:" );
-		level.voteTimetext destroy();
-		level.voteTimetextBck destroy();
+		if(IsDefined(level.voteTimetext))
+			level.voteTimetext destroy();
+		if(IsDefined(level.voteTimetextBck))
+			level.voteTimetextBck destroy();
 		player setClientDvar( "hud_ShowWinner", "1" );
 	}
 	level.invoting=2; 	
