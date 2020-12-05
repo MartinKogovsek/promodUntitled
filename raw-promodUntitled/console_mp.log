@@ -1,7 +1,7 @@
 
-Logfile opened on Sat Dec 05 15:24:01 2020
+Logfile opened on Sat Dec 05 16:50:30 2020
 
-Waited 34 msec for asset 'vehicle_80s_sedan1_red_destroyed' of type 'xmodel'.
+Waited 32 msec for asset 'vehicle_80s_sedan1_red_destroyed' of type 'xmodel'.
 frag_grenade_mp: WEAPON_FRAGGRENADE
 frag_grenade_short_mp: WEAPON_FRAGGRENADE
 smoke_grenade_mp: WEAPON_SMOKEGRENADE
@@ -61,7 +61,6 @@ Script tried to precache the menu 'mainmenu_settings' more than once
 tincxd : dropped gamestate, resending
 Received packet 0 of stats data
 Received packet 1 of stats data
-Unknown connectionless packet command: .
 Received packet 2 of stats data
 Received packet 3 of stats data
 Received packet 4 of stats data
@@ -70,11 +69,11 @@ Received packet 6 of stats data
 tincxd : dropped gamestate, resending
 SV_SendClientGameState() for tincxd
 Going from CS_CONNECTED to CS_CLIENTLOADING for tincxd
-Sending 12731 bytes in gamestate to client: 0
+Sending 12743 bytes in gamestate to client: 0
 Retrieving global configuration... 
 HTTPRequest: Open URL https://raw.githubusercontent.com:443/callofduty4x/CoD4x_Server/master/globalconfig.cfg
 Connecting to: raw.githubusercontent.com:443
-Resolved raw.githubusercontent.com:443 to: 151.101.12.133:443
+Resolved raw.githubusercontent.com:443 to: 151.101.240.133:443
 CL_ParseGamestateLegacy():
 Loaded zone 'mp_crash'
 frag_grenade_mp: WEAPON_FRAGGRENADE
@@ -98,7 +97,7 @@ LOADING...  - server models
 LOADING...  - game media done
 LOADING... clients
 CL_InitCGame:  0.04 seconds
-Com_TouchMemory: 0 msec. Using sum: -1021240463
+Com_TouchMemory: 0 msec. Using sum: -1072555151
 Hiding channel: gamenotify
 Hiding channel: obituary
 Adding channel: gamenotify
@@ -116,17 +115,16 @@ Giving tincxd a 999 ping - >999 calculated ping:
 WARNING: no alias prefix defined, using default
 Playing smoke grenades at time 1650
 WARNING: no alias prefix defined, using default
-Error: Could not load material "".
-Error: Voice_CreateChannel: Exceeded MAX_CAPTURECHANNELS
-(Defence)tincxd^7: ^5On me!
-==== ShutdownGame (0) ====
-------- Game Initialization -------
-gamename: Call of Duty 4
-gamedate: Jun 18 2008
------------------------------------
-Playing smoke grenades at time 58600
-Cmd_AddCommand: phys_stop already defined
-Cmd_AddCommand: phys_go already defined
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.Recovering lost device...
+Using 4x anti-aliasing
+Initializing render targets...
+Requested frame buffer to be 24-bit color with 8-bit alpha
+DirectX returned a frame buffer that is 24-bit color with 8-bit alpha
+Initializing static model cache...
+Initializing dynamic buffers...
+Initializing particle cloud buffer...
+Creating Direct3D queries...
+Finished recovering lost device.
 quitting...
 ----- CL_Shutdown -----
 Error: Sub_57B5C0: Failed to get line info!

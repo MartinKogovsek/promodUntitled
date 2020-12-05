@@ -53,6 +53,7 @@ init()
 	registerDvars();
 
 	thread misc_scripts\common\_precache::init();
+	level thread misc_scripts\common\duff_common::load();
 
 	precacheModel("tag_origin");
 	precacheShader("faction_128_usmc");
@@ -78,11 +79,13 @@ init()
 	else
 		setDvar("scr_player_maxhealth", 100);
 
+	
 	thread misc_scripts\afk::init();
 	if(level.gametype == "sd"){
 		thread misc_scripts\strat\lookforce::init();
 		//thread misc_scripts\strat\loadoutInfo::init();
 	}
+	thread misc_scripts\togglebinds::init();
 }
 
 registerDvars()

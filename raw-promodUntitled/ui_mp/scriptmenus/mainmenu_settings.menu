@@ -23,7 +23,6 @@
 		}
 
 		#include "ui_mp/ingamebg.inc"
-		//#include "ui_mp/dev_card.inc"
 
 		//==BUTTONS============================================================================================================================================
 		itemDef //TOP BACKGROUND
@@ -57,7 +56,6 @@
         CHOICE_SECTION_TITLE( 1, "Mod Settings" )
         CHOICE_DVAREDIT_VIS( 2, "@MENU_PLAYER_NAME", ui_name, 15, 15, ;, 1 )
 		CHOICE_DVARFLOATLIST( 3, "Killcam music", kill_mute, { "Off" 0 "On" 1  }, scriptmenuresponse "killcammusic"; )
-        CHOICE_DVARFLOATLIST( 4, "Knife", kr_wep, { "Classic" 0 "Combat" 1 "Sickle" 2 "Axe" 3 "Bayonet" 4 }, scriptmenuresponse "kniferoundwep"; )     
 
         CHOICE_SECTION_TITLE( 6, "Visual Settings" )
         CHOICE_DVARYESNO( 7, "Draw Lagometer", cg_drawLagometer, ; )

@@ -9,6 +9,15 @@ Pull requests are welcome.
 For feedback or issues, write us or open an issue.
 
 ## Patch notes
+#### V0.12.0.3 - [5.12.2020] - MENU btn style, settings
+![Alt Text](https://i.imgur.com/cWbKAFl.png)
+```
+Updated dvarlist buttons style,
+Added settings menu, killcam music (on/off).
+
+Temporarily disabled loadoutInfo.
+
+```
 #### V0.12.0.2 - [21.5.2020] - MERGE: MENU to Master
 ![Alt Text](https://i.imgur.com/cWbKAFl.png)
 ```
@@ -22,7 +31,6 @@ Created a loadoatinfo script, that shows player's
 equiped weapons.
 
 ```
-
 #### V0.10 - [7.5.2020] - GSC: afk patch, lookforce
 ```
 AntiAfk can be set in config (0 = disabled; n>0 = enabled, time; warn text shows at 80% of time set)
