@@ -10,7 +10,7 @@ For feedback or issues, write us or open an issue.
 
 ## Patch notes
 #### V0.12.0.3 - [5.12.2020] - MENU btn style, settings
-![Alt Text](https://i.imgur.com/cWbKAFl.png)
+![Alt Text](https://i.imgur.com/SQROhYw.png)
 ```
 Updated dvarlist buttons style,
 Added settings menu, killcam music (on/off).
