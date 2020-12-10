@@ -31,8 +31,7 @@ trimAllRightThroughSeperator( string, seperator ){
         return getSubStr( string, 0, i-1 );
 }
  
-trimRight( string )
-{
+trimRight( string ){
         i = string.size;
         for(; i && string[i-1] == " "; i-- ){}
         return getSubStr( string, 0, i );

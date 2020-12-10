@@ -1,16 +1,13 @@
-init()
-{
+init(){
 	level.forceAimEnt = spawn("script_origin", (0,0,0));
 
-	while(1)
-	{
+	while(1){
 		level waittill("connected", player);
 		player thread onSpawn();
 	}
 }
 
-onSpawn()
-{
+onSpawn() {
 	while(1)
 	{
 		self waittill("spawned_player");

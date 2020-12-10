@@ -13,14 +13,11 @@ endGameMusic(){
 playSoundOnAllPlayers( soundAlias ){
 	for( i = 0; i < getEntArray( "player", "classname" ).size; i++ ){
 		getEntArray( "player", "classname" )[i] playLocalSound( soundAlias );
-
 	}
 }
 
-playKcSoundOnAllPlayers( soundAlias )
-{
-    for(i=0;i<level.players.size;i++)
-	{
+playKcSoundOnAllPlayers( soundAlias ){
+    for(i=0;i<level.players.size;i++){
 		player=level.players[i];
 		if(player.pers["killCamMusic"] == 1){
      	 	player playLocalSound( soundAlias );

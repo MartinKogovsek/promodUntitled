@@ -13,7 +13,7 @@ itemDef
 {
 	rect		0 -36 1 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
 	origin		0 0
-	text		"^5#^7promodUntitled v0.12.1.1"
+	text		"^5#^7promodUntitled v0.12.1.2"
 	textscale	0.3
 	textalign	ITEM_ALIGN_CENTER
 	textstyle	ITEM_TEXTSTYLE_SHADOWED

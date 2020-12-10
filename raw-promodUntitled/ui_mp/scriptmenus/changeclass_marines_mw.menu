@@ -76,24 +76,21 @@
 		#include "ui_mp/teamicon.inc"
 
 		CHOICE_HIGHLIGHT( 1, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 1, "Assault", scriptMenuResponse "assault";, when( dvarBool( allies_allow_assault ) || dvarString( loadout_curclass ) == "assault" ) )
-		CHOICE_DBUTTON_VIS_NOHI( 1, "Assault", when( !dvarBool( allies_allow_assault ) && dvarString( loadout_curclass ) != "assault" ) )
+		CHOICE_BUTTON_VIS( 1, "Assault", scriptMenuResponse "assault";, when( dvarBool( allies_allow_assault ) || dvarString( loadout_curclass ) == "assault" ) )
+		CHOICE_DBUTTON_VIS( 1, "Assault", when( !dvarBool( allies_allow_assault ) && dvarString( loadout_curclass ) != "assault" ) )
 
 		CHOICE_HIGHLIGHT( 2, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 2, "Spec Ops", scriptMenuResponse "specops";, when( dvarBool( allies_allow_specops ) || dvarString( loadout_curclass ) == "specops" ) )
-		CHOICE_DBUTTON_VIS_NOHI( 2, "Spec Ops", when( !dvarBool( allies_allow_specops ) && dvarString( loadout_curclass ) != "specops" ) )
+		CHOICE_BUTTON_VIS( 2, "Spec Ops", scriptMenuResponse "specops";, when( dvarBool( allies_allow_specops ) || dvarString( loadout_curclass ) == "specops" ) )
+		CHOICE_DBUTTON_VIS( 2, "Spec Ops", when( !dvarBool( allies_allow_specops ) && dvarString( loadout_curclass ) != "specops" ) )
 
 		CHOICE_HIGHLIGHT( 3, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 3, "Demolitions", scriptMenuResponse "demolitions";, when( dvarBool( allies_allow_demolitions ) || dvarString( loadout_curclass ) == "demolitions" ) )
-		CHOICE_DBUTTON_VIS_NOHI( 3, "Demolitions", when( !dvarBool( allies_allow_demolitions ) && dvarString( loadout_curclass ) != "demolitions" ) )
+		CHOICE_BUTTON_VIS( 3, "Demolitions", scriptMenuResponse "demolitions";, when( dvarBool( allies_allow_demolitions ) || dvarString( loadout_curclass ) == "demolitions" ) )
+		CHOICE_DBUTTON_VIS( 3, "Demolitions", when( !dvarBool( allies_allow_demolitions ) && dvarString( loadout_curclass ) != "demolitions" ) )
 
 		CHOICE_HIGHLIGHT( 4, 1 )
-		CHOICE_BUTTON_VIS_NOHI( 4, "Sniper", scriptMenuResponse "sniper";, when( dvarBool( allies_allow_sniper ) || dvarString( loadout_curclass ) == "sniper" ) )
-		CHOICE_DBUTTON_VIS_NOHI( 4, "Sniper", when( !dvarBool( allies_allow_sniper ) && dvarString( loadout_curclass ) != "sniper" ) )
+		CHOICE_BUTTON_VIS( 4, "Sniper", scriptMenuResponse "sniper";, when( dvarBool( allies_allow_sniper ) || dvarString( loadout_curclass ) == "sniper" ) )
+		CHOICE_DBUTTON_VIS( 4, "Sniper", when( !dvarBool( allies_allow_sniper ) && dvarString( loadout_curclass ) != "sniper" ) )
 		CHOICE_SEPARATOR_VIS( CHOICE_SEP_1, when( !localvarBool( ui_hideBack ) ) )
-		
-		//CHOICE_HIGHLIGHT( 6, 1 )		
-		//CHOICE_BUTTON_VIS_NOHI( 6, "Spectate Team", scriptMenuResponse "killspec";, 1 )
 		
 		// SETTINGS =======================================================================
 		CHOICE_SEPARATOR_VIS( CHOICE_SEP_2, when( !localvarBool( ui_hideBack ) ) )
@@ -106,10 +103,6 @@
 		CHOICE_HIGHLIGHT ( 9, 1 )
 		CHOICE_DVARFLOATLIST( 9, "FOV/SCALE", cg_fovScale, { "1.25" 1.25 "1.125" 1.125 }, ; )
 
-		CHOICE_HIGHLIGHT ( 10, 1 )
-		CHOICE_DVARFLOATLIST( 10, "FullBright", r_fullbright, { "On" 1 "Off" 0 }, ; )
-		CHOICE_SEPARATOR_VIS( CHOICE_SEP_3, when( !localvarBool( ui_hideBack ) ) )
-		
 		CHOICE_HIGHLIGHT ( 10, 1 )
 		CHOICE_DVARFLOATLIST( 10, "FullBright", r_fullbright, { "On" 1 "Off" 0 }, ; )
 		CHOICE_SEPARATOR_VIS( CHOICE_SEP_3, when( !localvarBool( ui_hideBack ) ) )

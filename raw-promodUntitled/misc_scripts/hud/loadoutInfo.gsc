@@ -1,7 +1,5 @@
-init()
-{
-	while(1)
-	{
+init(){
+	while(1){
 		level waittill("connected", player);
 		player thread loadoutInfo(player);
 	}
@@ -12,25 +10,27 @@ loadoutInfo(player){
 	self endon ("death");
 	self waittill("spawned_player");
 
-	if(game["roundsplayed"] != 0 && !(level.strat_over)){
-		primaryWeapon=player.pers[player.pers["class"]]["loadout_primary"];
-		secondaryWeapon=player.pers[player.pers["class"]]["loadout_secondary"];
+	if(self.pers["loadoutToggle"] == 1){
+		if(game["roundsplayed"] != 0 && !(level.strat_over)){
+			primaryWeapon=player.pers[player.pers["class"]]["loadout_primary"];
+			secondaryWeapon=player.pers[player.pers["class"]]["loadout_secondary"];
 
-		items[0] = self loadoutInfoHudElem(self, "Primary weapon", primaryWeapon, getWeaponShader(primaryWeapon), "gun", -80, 120, "cutbox_bg_hud", 170, 140, 0.6, true);
-		items[1] = self loadoutInfoHudElem(self, "Secondary weapon", secondaryWeapon, getWeaponShader(secondaryWeapon), "pistol", -80, 220, "cutbox_bg_hud", 170, 140, 0.6, true);
+			items[0] = self loadoutInfoHudElem(self, "Primary weapon", primaryWeapon, getWeaponShader(primaryWeapon), "gun", -80, 120, "cutbox_bg_hud", 170, 140, 0.6, true);
+			items[1] = self loadoutInfoHudElem(self, "Secondary weapon", secondaryWeapon, getWeaponShader(secondaryWeapon), "pistol", -80, 220, "cutbox_bg_hud", 170, 140, 0.6, true);
 
-		level waittill("strat_over");
-		
-		for(i = 0; i < items.size; i++){
-			for(k = 0; k < items[i].size; k++){
-				items[i][k] FadeOverTime(0.5);
-				items[i][k].alpha = 0;
+			level waittill("strat_over");
+			
+			for(i = 0; i < items.size; i++){
+				for(k = 0; k < items[i].size; k++){
+					items[i][k] FadeOverTime(0.5);
+					items[i][k].alpha = 0;
+				}
 			}
-		}
-		wait 1;
-		for(i = 0; i < items.size; i++){
-			for(k = 0; k < items[i].size; k++){
-				items[i][k] destroy();
+			wait 1;
+			for(i = 0; i < items.size; i++){
+				for(k = 0; k < items[i].size; k++){
+					items[i][k] destroy();
+				}
 			}
 		}
 	}

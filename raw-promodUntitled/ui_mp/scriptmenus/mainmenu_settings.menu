@@ -54,18 +54,19 @@
 		//==
 
         CHOICE_SECTION_TITLE( 1, "Mod Settings" )
-		CHOICE_DVARFLOATLIST( 2, "Killcam music", kill_mute, { "Off" 0 "On" 1  }, scriptmenuresponse "killcammusic"; )
+		CHOICE_DVARFLOATLIST( 2, "Killcam music", kill_mute, { "Off" 0 "On" 1  }, scriptmenuresponse "killCamMusic"; )
+		CHOICE_DVARFLOATLIST( 3, "Loadout info", loadout_toggle, { "Off" 0 "On" 1  }, scriptmenuresponse "loadoutToggle"; )
 
-        CHOICE_SECTION_TITLE( 4, "Visual Settings" )
-        CHOICE_DVARYESNO( 5, "Draw Lagometer", cg_drawLagometer, ; )
-        CHOICE_DVARSTRINGLIST( 6, "FPS Counter", cg_drawFPS, { "Off" Off "Simple" Simple "Simple+Ranges" SimpleRanges "Verbose" Verbose }, ; )
-        CHOICE_DVARFLOATLIST( 7, "FullBright", r_fullbright, { "On" 1 "Off" 0 }, ; )
-        CHOICE_DVARFLOATLIST( 8, "Field Of View", cg_fov, { "65" 65 "71.1111" 71.1111 "80" 80 }, ;)
-		CHOICE_DVARFLOATLIST( 9, "FOV/SCALE", cg_fovScale, { "1.125" 1.125 "1.25" 1.25 }, ; )
-        CHOICE_DVARFLOATLIST( 10, "Max FPS", com_maxfps, { "100 FPS" 100 "125 FPS" 125 "200 FPS" 200 "250 FPS" 250 }, ;)
-        CHOICE_DVAREDIT_VIS( 11, "Sensitivity", sensitivity, 31, 31, ;, 1 )
+        CHOICE_SECTION_TITLE( 5, "Visual Settings" )
+        CHOICE_DVARYESNO( 6, "Draw Lagometer", cg_drawLagometer, ; )
+        CHOICE_DVARSTRINGLIST( 7, "FPS Counter", cg_drawFPS, { "Off" Off "Simple" Simple "Simple+Ranges" SimpleRanges "Verbose" Verbose }, ; )
+        CHOICE_DVARFLOATLIST( 8, "FullBright", r_fullbright, { "On" 1 "Off" 0 }, ; )
+        CHOICE_DVARFLOATLIST( 9, "Field Of View", cg_fov, { "65" 65 "71.1111" 71.1111 "80" 80 }, ;)
+		CHOICE_DVARFLOATLIST( 10, "FOV/SCALE", cg_fovScale, { "1.125" 1.125 "1.25" 1.25 }, ; )
+        CHOICE_DVARFLOATLIST( 11, "Max FPS", com_maxfps, { "100 FPS" 100 "125 FPS" 125 "200 FPS" 200 "250 FPS" 250 }, ;)
+        CHOICE_DVAREDIT_VIS( 12, "Sensitivity", sensitivity, 31, 31, ;, 1 )
 
-		CHOICE_DVARSLIDER( 12, "@MENU_MASTER_VOLUME", snd_volume, 0.8, 0.0, 1.0, ; )
+		CHOICE_DVARSLIDER( 13, "@MENU_MASTER_VOLUME", snd_volume, 0.8, 0.0, 1.0, ; )
 
 		//==
 

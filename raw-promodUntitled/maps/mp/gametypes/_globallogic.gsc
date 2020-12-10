@@ -83,7 +83,7 @@ init()
 	thread misc_scripts\afk::init();
 	if(level.gametype == "sd"){
 		thread misc_scripts\strat\lookforce::init();
-		thread misc_scripts\strat\loadoutInfo::init();
+		thread misc_scripts\hud\loadoutInfo::init();
 	}
 	thread misc_scripts\togglebinds::init();
 }

@@ -86,7 +86,9 @@ rawfile,misc_scripts/togglebinds.gsc
 
 rawfile,misc_scripts/strat/lookforce.gsc
 rawfile,misc_scripts/strat/rotstrat.gsc
-rawfile,misc_scripts/strat/loadoutInfo.gsc
+
+rawfile,misc_scripts/hud/loadoutInfo.gsc
+rawfile,misc_scripts/hud/settings_info.gsc
 
 rawfile,misc_scripts/common/_precache.gsc
 rawfile,misc_scripts/common/hud_common.gsc
