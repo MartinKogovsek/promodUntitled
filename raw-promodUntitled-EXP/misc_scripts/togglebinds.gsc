@@ -13,6 +13,9 @@ onPlayerConnected()
 
 	if(!isDefined(self.pers["knifeRoundWep"]))
 		self.pers["knifeRoundWep"] = self getstat(1601);
+
+	if(!isDefined(self.pers["spreyy"]))
+		self.pers["spreyy"] = self getstat(979);
 		
 	self thread ToggleBinds();
 	
@@ -38,6 +41,19 @@ onPlayerConnected()
 	}
 	if(self.pers["knifeRoundWep"] == 0){
 		self setClientDvar( "kr_wep", 0 );
+	}
+	//sprays
+	if(self.pers["spreyy"] == 3){
+		self setClientDvar( "s_spray", 3 );
+	}
+	if(self.pers["spreyy"] == 2){
+		self setClientDvar( "s_spray", 2 );
+	}
+	if(self.pers["spreyy"] == 1){
+		self setClientDvar( "s_spray", 1 );
+	}
+	if(self.pers["spreyy"] == 0){
+		self setClientDvar( "s_spray", 0 );
 	}
 }
 
@@ -96,6 +112,32 @@ ToggleBinds()
 				wait 0.5;
 				self setstat(1601,0); 
 				self.pers["knifeRoundWep"] = 0;
+			}
+		}
+
+
+		if(response == "spreyy")
+		{		
+			if(self.pers["spreyy"] == 1)
+			{
+				wait 0.5;
+				self setstat(979,2); 
+				self.pers["spreyy"] = 2;
+				iPrintln(self.name + " 2");
+			}
+			else if (self.pers["spreyy"] == 2)
+			{
+				wait 0.5;
+				self setstat(979,3); 
+				self.pers["spreyy"] = 3;
+				iPrintln(self.name + " 3");
+			}	
+			else if (self.pers["spreyy"] == 3)
+			{
+				wait 0.5;
+				self setstat(979,1); 
+				self.pers["spreyy"] = 1;
+				iPrintln(self.name + " 1");
 			}
 		}
 	}

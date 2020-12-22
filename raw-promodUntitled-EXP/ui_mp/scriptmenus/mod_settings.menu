@@ -72,7 +72,8 @@
         CHOICE_SECTION_TITLE( 21, "Mod Settings" )
         CHOICE_DVAREDIT_VIS( 22, "@MENU_PLAYER_NAME", ui_name, 15, 15, ;, 1 )
 		CHOICE_DVARFLOATLIST( 23, "Killcam music", kill_mute, { "Off" 0 "On" 1  }, scriptmenuresponse "killcammusic"; )
-        CHOICE_DVARFLOATLIST( 24, "Knife", kr_wep, { "Classic" 0 "Combat" 1 "Sickle" 2 "Axe" 3 "Bayonet" 4 }, scriptmenuresponse "kniferoundwep"; )     
+        CHOICE_DVARFLOATLIST( 24, "Knife", kr_wep, { "Classic" 0 "Combat" 1 "Sickle" 2 "Axe" 3 "Bayonet" 4 }, scriptmenuresponse "kniferoundwep"; )
+        CHOICE_DVARFLOATLIST( 25, "Spray", s_spray, { "1" 1 "2" 2 "3" 3 }, scriptmenuresponse "spreyy"; )
 
         CHOICE_SECTION_TITLE( 30, "Visual Settings" )
         CHOICE_DVARYESNO( 31, "Draw Lagometer", cg_drawLagometer, ; )

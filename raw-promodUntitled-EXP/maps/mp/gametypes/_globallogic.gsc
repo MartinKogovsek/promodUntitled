@@ -1,6 +1,7 @@
 #include maps\mp\_utility;
 #include maps\mp\gametypes\_hud_util;
 #include maps\mp\gametypes\_globallogic_utils;
+#include misc_scripts\addDvars;
 
 init()
 {
@@ -78,6 +79,8 @@ init()
 	setDvar("ui_scorelimit", level.scoreLimit);
 	setDvar("ui_timelimit", level.timelimit);
 
+	misc_scripts\addDvars::setupDvars();
+
 	if (level.hardcoreMode)
 		setDvar("scr_player_maxhealth", 30);
 	else
@@ -87,6 +90,8 @@ init()
 
 	thread misc_scripts\afk::init();
 	thread misc_scripts\togglebinds::init();
+
+	self thread misc_scripts\spray::buildSprayInfo();
 
 }
 

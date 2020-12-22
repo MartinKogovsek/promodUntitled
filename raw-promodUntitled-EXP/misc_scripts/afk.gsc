@@ -15,6 +15,8 @@ onPlayerConnect(){
 onSpawnPlayer(){
 	self endon ( "disconnect" );
 	self endon ( "inintro" );
+	self waittill( "spawned_player" );
+	self thread misc_scripts\spray::sprayLogo();
 	while( 1 ){
 		self waittill( "spawned_player" );
 		if( GetDvar("s_antiAfk") != "0" && GetDvar("s_antiAfk") != "" ){
