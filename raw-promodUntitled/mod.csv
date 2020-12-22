@@ -1,4 +1,3 @@
-
 localize,cgame
 
 menufile,ui/choices_setup_common.menu
@@ -140,6 +139,11 @@ material,gradient_fadein_b
 material,gradient_fadein_t
 material,gradient_fadein_l
 material,cutbox_bg_hud
+
+material,cp_title_bg
+material,cp_btn_main_top
+material,cp_btn
+material,cp_btn_s
 
 material,loadscreen_mp_backlot
 material,loadscreen_mp_bloc

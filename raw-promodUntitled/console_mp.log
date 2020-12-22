@@ -1,8 +1,6 @@
 
-Logfile opened on Thu Dec 10 11:19:03 2020
+Logfile opened on Tue Dec 15 23:44:55 2020
 
-Waited 1896 msec for asset 'vehicle_80s_sedan1_red_destroyed' of type 'xmodel'.
-Waited 43 msec for asset 'vehicle_80s_sedan1_red_mirror_R' of type 'xmodel'.
 frag_grenade_mp: WEAPON_FRAGGRENADE
 frag_grenade_short_mp: WEAPON_FRAGGRENADE
 smoke_grenade_mp: WEAPON_SMOKEGRENADE
@@ -15,11 +13,11 @@ Working directory: C:\Users\Martin\Desktop\GitHub\CoD_Dev_Untitled\main
 Resolving Filter Server... 
 HTTPRequest: Open URL http://filter.cod4x.me:80/filter/
 Connecting to: filter.cod4x.me:80
+Resolved filter.cod4x.me:80 to: 188.165.57.239:80
 SV_DirectConnect()
 Connecting player #0 has an unknown GUID
 Going from CS_FREE to CS_CONNECTED for  (num 0 guid "")
-Resolved filter.cod4x.me:80 to: 188.165.57.239:80
-Huffman Took 3 Milliseconds
+Huffman Took 1 Milliseconds
 Unknown connectionless packet command: .
 ==== ShutdownGame (0) ====
 ------- Game Initialization -------
@@ -59,24 +57,24 @@ Script tried to precache the menu 'vote' more than once
 Script tried to precache the menu 'mainmenu_home' more than once
 Script tried to precache the menu 'mainmenu_loadout' more than once
 Script tried to precache the menu 'mainmenu_settings' more than once
-FortniteGaymer : dropped gamestate, resending
+smrad : dropped gamestate, resending
 Unknown connectionless packet command: .
 Received packet 0 of stats data
 Received packet 1 of stats data
 Received packet 2 of stats data
+Unknown connectionless packet command: .
 Received packet 3 of stats data
 Received packet 4 of stats data
 Received packet 5 of stats data
+Received packet 6 of stats data
+smrad : dropped gamestate, resending
+SV_SendClientGameState() for smrad
+Going from CS_CONNECTED to CS_CLIENTLOADING for smrad
+Sending 12743 bytes in gamestate to client: 0
 Retrieving global configuration... 
 HTTPRequest: Open URL https://raw.githubusercontent.com:443/callofduty4x/CoD4x_Server/master/globalconfig.cfg
 Connecting to: raw.githubusercontent.com:443
-Received packet 6 of stats data
-FortniteGaymer : dropped gamestate, resending
-SV_SendClientGameState() for FortniteGaymer
-Going from CS_CONNECTED to CS_CLIENTLOADING for FortniteGaymer
-Resolved raw.githubusercontent.com:443 to: 151.101.12.133:443
-Sending 12775 bytes in gamestate to client: 0
-VID_AppActivate: 0
+Resolved raw.githubusercontent.com:443 to: 151.101.240.133:443
 CL_ParseGamestateLegacy():
 Loaded zone 'mp_crash'
 frag_grenade_mp: WEAPON_FRAGGRENADE
@@ -100,7 +98,7 @@ LOADING...  - server models
 LOADING...  - game media done
 LOADING... clients
 CL_InitCGame:  0.04 seconds
-Com_TouchMemory: 0 msec. Using sum: -1070655087
+Com_TouchMemory: 0 msec. Using sum: -1049746703
 Hiding channel: gamenotify
 Hiding channel: obituary
 Adding channel: gamenotify
@@ -111,50 +109,50 @@ Hiding channel: subtitle
 Adding channel: subtitle
 No channels added or hidden
 NET_EnableQoSForHost: No IPv4 socket or remote host.
-Going from CS_CLIENTLOADING to CS_ACTIVE for FortniteGaymer
-Giving FortniteGaymer a 999 ping - >999 calculated ping:
-Giving FortniteGaymer a 999 ping - >999 calculated ping:
-Giving FortniteGaymer a 999 ping - >999 calculated ping:
+Going from CS_CLIENTLOADING to CS_ACTIVE for smrad
+Giving smrad a 999 ping - >999 calculated ping:
+Giving smrad a 999 ping - >999 calculated ping:
+Giving smrad a 999 ping - >999 calculated ping:
 WARNING: no alias prefix defined, using default
-Playing smoke grenades at time 1750
+Playing smoke grenades at time 1700
 WARNING: no alias prefix defined, using default
-==== ShutdownGame (0) ====
+Error: Could not load material "".
+Error: Voice_CreateChannel: Exceeded MAX_CAPTURECHANNELS
+Recovering lost device...
+Using 4x anti-aliasing
+Initializing render targets...
+Requested frame buffer to be 24-bit color with 8-bit alpha
+DirectX returned a frame buffer that is 24-bit color with 8-bit alpha
+Initializing static model cache...
+Initializing dynamic buffers...
+Initializing particle cloud buffer...
+Creating Direct3D queries...
+Finished recovering lost device.
+SetTargetEnt() called on a non-broadcasting entity, may not show in client snapshots.==== ShutdownGame (0) ====
 ------- Game Initialization -------
 gamename: Call of Duty 4
 gamedate: Jun 18 2008
 -----------------------------------
-Playing smoke grenades at time 131450
-==== ShutdownGame (0) ====
-------- Game Initialization -------
-gamename: Call of Duty 4
-gamedate: Jun 18 2008
------------------------------------
-Playing smoke grenades at time 247150
-==== ShutdownGame (0) ====
-------- Game Initialization -------
-gamename: Call of Duty 4
-gamedate: Jun 18 2008
------------------------------------
-Playing smoke grenades at time 362850
-==== ShutdownGame (0) ====
-------- Game Initialization -------
-gamename: Call of Duty 4
-gamedate: Jun 18 2008
------------------------------------
-Playing smoke grenades at time 478550
-==== ShutdownGame (0) ====
-------- Game Initialization -------
-gamename: Call of Duty 4
-gamedate: Jun 18 2008
------------------------------------
-Playing smoke grenades at time 594250
+Playing smoke grenades at time 34000
+Cmd_AddCommand: phys_stop already defined
+Cmd_AddCommand: phys_go already defined
+Recovering lost device...
+Using 4x anti-aliasing
+Initializing render targets...
+Requested frame buffer to be 24-bit color with 8-bit alpha
+DirectX returned a frame buffer that is 24-bit color with 8-bit alpha
+Initializing static model cache...
+Initializing dynamic buffers...
+Initializing particle cloud buffer...
+Creating Direct3D queries...
+Finished recovering lost device.
 quitting...
 ----- CL_Shutdown -----
 Error: Sub_57B5C0: Failed to get line info!
 -----------------------
 ----- Server Shutdown -----
 ==== ShutdownGame (1) ====
-0:FortniteGaymer EXE_DISCONNECTED
+0:smrad EXE_DISCONNECTED
 ---------------------------
 Unloaded fastfile mp_crash
 Unloaded fastfile mp_crash_load

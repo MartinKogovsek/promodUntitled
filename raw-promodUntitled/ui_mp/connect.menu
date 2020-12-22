@@ -12,48 +12,22 @@
 		background			"$levelBriefing"
 		rect				FULLSCREEN_WIDE
 
-		// gradient_top
-		itemDef
-		{
-			style			WINDOW_STYLE_SHADER
-			rect			0 0 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
-			background		"gradient_top"
-			visible			1
-			decoration
-		}
+		#include "ui_mp/ingamebg.inc"
 
-		// gradient_bottom
-		itemDef
-		{
-			style			WINDOW_STYLE_SHADER
-			rect			0 405 854 75 HORIZONTAL_ALIGN_FULLSCREEN 0
-			background		"gradient_bottom"
-			visible			1
-			decoration
-		}
-		itemDef
-		{
-			style			WINDOW_STYLE_FILLED
-			rect			-301 -39 600 2 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
-			origin			107 0
-			backcolor		0 0 0 0.8
-			visible			1
-			decoration
-		}
 		itemDef
 		{
 			name			"loadbar"
 			style			WINDOW_STYLE_LOADBAR
-			rect			-300 -38.5 600 1 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
+			rect			-300 -38.5 600 2 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
 			origin			107 0
-			background		"white"
+			background		"black"
 			visible			1
 			decoration
 		}
 		itemDef
 		{
 			rect			-300 -18 10 100 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_BOTTOM
-			text 			"^5#^7promodUntitled v0.12.1.2"
+			text 			"^0#^1promodUntitled v0.12.1.2"
 			textfont		UI_FONT_OBJECTIVE
 			textscale		0.2
 			textalign		ITEM_ALIGN_LEFT

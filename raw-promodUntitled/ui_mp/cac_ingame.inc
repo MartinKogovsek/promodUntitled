@@ -58,7 +58,6 @@ menuDef	{
 	CHOICE_MENU_TITLE( "INVENTORY" )
 
 	#define BACK_OPEN;
-	#include "ui_mp/navcontrols.inc"
 
 	#define CAC_SETUP_ACTION1 \
 		play "mouse_click"; \

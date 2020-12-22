@@ -267,7 +267,7 @@
 			style			WINDOW_STYLE_SHADER \
 			rect			CHOICE_ORIGIN( itemIndex ) (CHOICE_SIZE_X-(CHOICE_SIZE_Y/4)) CHOICE_SIZE_Y CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 			exp				material( bgimage ); \
-			forecolor		foreColorArg \
+			forecolor		0.75 0.02 0.2 0.25 \
 			visible			visArg; \
 			decoration \
 		} \
@@ -276,7 +276,7 @@
 			style			WINDOW_STYLE_SHADER \
 			rect			(CHOICE_X( itemIndex )+(CHOICE_SIZE_X-(CHOICE_SIZE_Y/4))) CHOICE_Y( itemIndex ) 4 CHOICE_SIZE_Y CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 			exp				material( "gradient_fadein_l" ); \
-			forecolor		foreColorArg \
+			forecolor		0.75 0.02 0.2 0.25 \
 			visible			visArg; \
 			decoration \
 		} \	
@@ -287,7 +287,7 @@
 			style			WINDOW_STYLE_SHADER \
 			rect			CHOICE_ORIGIN( itemIndex ) (CHOICE_SIZE_X-(CHOICE_SIZE_Y/4)) CHOICE_SIZE_Y CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 			background		"gradient_fadein_t" \
-			forecolor		0.4 0.8 1 0.25 \
+			forecolor		0.75 0.02 0.2 0.25 \
 			border			HIGHLIGHT_BORDER \
 			bordersize		2 \
 			bordercolor		borderColorArg \
@@ -302,7 +302,7 @@
 			style			WINDOW_STYLE_SHADER \
 			rect			CHOICE_ORIGIN( itemIndex ) (CHOICE_SIZE_X-(CHOICE_SIZE_Y/4)) CHOICE_SIZE_Y CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 			background		"gradient_fadein_t" \
-			forecolor		0.4 0.8 1 0.25 \
+			forecolor		0.75 0.02 0.2 0.25 \
 			border			HIGHLIGHT_BORDER \
 			bordersize		2 \
 			bordercolor		borderColorArg \
@@ -314,7 +314,7 @@
 			style			WINDOW_STYLE_SHADER \
 			rect			(CHOICE_X( itemIndex )+(CHOICE_SIZE_X-(CHOICE_SIZE_Y/4))) CHOICE_Y( itemIndex ) 50 CHOICE_SIZE_Y CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 			background		"gradient_fadein_l" \
-			forecolor		0.4 0.8 1 0.25 \
+			forecolor		0.75 0.02 0.2 0.25 \
 			visible			when( localVarInt( ui_highlight ) == itemIndex && localVarString( ui_choicegroup ) == CHOICE_GROUP ); \
 			decoration \
 		} \
@@ -404,7 +404,7 @@
 		{ \
 			type			ITEM_TYPE_TEXT \
 			origin			ORIGIN_TITLE \
-			forecolor		COLOR_TITLE \
+			forecolor		0.75 0.02 0.2 0.8 \
 			exp				text( titleArg ) \
 			textfont		UI_FONT_NORMAL \
 			textscale		TEXTSIZE_TITLE \
@@ -415,6 +415,7 @@
 			visible			1 \
 			decoration \
 		}
+		
 		
 #define CHOICE_MENU_TITLE_VIS( titleArg, visArg ) \
 		itemDef \
@@ -441,7 +442,7 @@
 		rect			(SECTION_X_OFFSET+0) 7 240 0.5 CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 		origin			CHOICE_ORIGIN( itemIndex ) \
 		background		"line_horizontal" \
-		forecolor		1 1 1 0.85 \
+		forecolor		0.75 0.02 0.2 0.85 \
 		visible			visArg \
 		decoration \
 	}	 \
@@ -451,7 +452,7 @@
 		rect			(SECTION_X_OFFSET+20) 8 200 10 CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 		origin			CHOICE_ORIGIN( itemIndex ) \
 		background		"line_horizontal" \
-		forecolor		0.4 0.6 1 0.8 \
+		forecolor		0.75 0.02 0.2 0.25 \
 		visible			visArg \
 		decoration \
 	} \
@@ -461,7 +462,7 @@
 		rect			(SECTION_X_OFFSET+0) 19 240 0.5 CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 		origin			CHOICE_ORIGIN( itemIndex ) \
 		background		"line_horizontal" \
-		forecolor		1 1 1 0.85 \
+		forecolor		0.75 0.02 0.2 0.85 \
 		visible			visArg \
 		decoration \
 	} \
@@ -470,7 +471,7 @@
 		type			ITEM_TYPE_TEXT \
 		rect			(SECTION_X_OFFSET+0) -1 240 24 CHOICE_HORIZONTAL_ALIGN CHOICE_VERTICAL_ALIGN \
 		origin			CHOICE_ORIGIN( itemIndex ) \
-		forecolor		1 1 1 0.8 \
+		forecolor		0.44 1 1 0.8 \
 		exp				text( titleArg );\
 		textstyle 		ITEM_TEXTSTYLE_SHADOWED \
 		textfont		UI_FONT_NORMAL \

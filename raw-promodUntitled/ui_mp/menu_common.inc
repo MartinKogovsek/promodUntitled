@@ -13,6 +13,9 @@ itemDef \
 	visible			visArg \
 	name			"button_default"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
+	style			WINDOW_STYLE_SHADER \
+	background		"cp_btn_main_top" \
+	forecolor		0.75 0.02 0.2 0.8 \
 } \
 itemDef \
 { \
@@ -20,30 +23,22 @@ itemDef \
 	name			"button_over"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
-	background		"gradient_fadein_b" \
-	forecolor		0.4 0.8 1 0.1 \
-} \
-itemDef \
-{ \
-	visible			0 \
-	name			"button_over"id \
-	rect			(x+90) (y + h) w 2 SURF_BUTTON_ALIGN \
-	style			WINDOW_STYLE_FILLED \
-	backcolor		0.4 0.8 1 0.1 \
+	background		"cp_btn_main_top" \
+	forecolor		0.44 1 1 0.8 \
 } \
 itemDef \
 { \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
 	exp			text( itemName ) \
-	forecolor 	1 1 1 0.5 \
+	forecolor 	0.75 0.02 0.2 1 \
 	type		ITEM_TYPE_BUTTON \
-	textfont	UI_FONT_NORMAL \
+	textfont	UI_FONT_OBJECTIVE \
 	textstyle	ITEM_TEXTSTYLE_NORMAL \
 	textalign	ITEM_ALIGN_CENTER \
-	textscale	0.32 \
+	textscale	0.34 \
 	textalignx	0 \
-	textaligny	(h - 5) \
+	textaligny	(h - 4) \
 	visible		visArg \
 	mouseEnter \
 	{ \
@@ -73,6 +68,9 @@ itemDef \
 	visible			visArg \
 	name			"button_default"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
+	style			WINDOW_STYLE_SHADER \
+	background		"cp_btn_main_top" \
+	forecolor		0.75 0.02 0.2 0.8 \
 } \
 itemDef \
 { \
@@ -80,7 +78,7 @@ itemDef \
 	name			"button_over"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
-	background		"gradient_fadein_t" \
+	background		"cp_btn_main_top" \
 	forecolor		gcolor 0.1 \
 } \
 itemDef \
@@ -88,14 +86,14 @@ itemDef \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
 	exp			text( itemName ) \
-	forecolor 	1 1 1 0.5 \
+	forecolor 	0.75 0.02 0.2 0.5 \
 	type		ITEM_TYPE_BUTTON \
 	textfont	UI_FONT_NORMAL \
 	textstyle	ITEM_TEXTSTYLE_NORMAL \
 	textalign	ITEM_ALIGN_CENTER \
 	textscale	0.32 \
 	textalignx	0 \
-	textaligny	(h - 12) \
+	textaligny	(h-2) \
 	visible		visArg \
 	mouseEnter \
 	{ \
@@ -126,28 +124,20 @@ itemDef \
 	name			"button_over"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
-	background		"gradient_fadein_b" \
-	forecolor		0.4 0.8 1 0.25 \
-} \
-itemDef \
-{ \
-	visible			visArg \
-	name			"button_over"id \
-	rect			(x+90) (y + h) w 2 SURF_BUTTON_ALIGN \
-	style			WINDOW_STYLE_FILLED \
-	backcolor		1 1 1 0.8 \
+	background		"cp_btn_main_top" \
+	forecolor		0.44 1 1 0.8 \
 } \
 itemDef \
 { \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
 	exp			text( itemName ) \
-	forecolor 	0.4 0.8 1 1 \
+	forecolor 	0.44 1 1 1 \
 	type		ITEM_TYPE_BUTTON \
-	textfont	UI_FONT_NORMAL \
+	textfont	UI_FONT_OBJECTIVE \
 	textstyle	ITEM_TEXTSTYLE_NORMAL \
 	textalign	ITEM_ALIGN_CENTER \
-	textscale	0.32 \
+	textscale	0.34 \
 	textalignx	0 \
 	textaligny	(h - 4) \
 	visible		visArg \
@@ -165,16 +155,8 @@ itemDef \
 	name			"button_default"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
-	background		"gradient_fadein_l" \
-	forecolor		0 0 0 .5 \
-} \
-itemDef \
-{ \
-	visible			visArg \
-	name			"button_default"id \
-	rect			(x+90) y 2 h SURF_BUTTON_ALIGN \
-	style			WINDOW_STYLE_FILLED \
-	backcolor		1 1 1 0.8 \
+	background		"cp_btn_s" \
+	forecolor		0.75 0.02 0.2 .5 \
 } \
 itemDef \
 { \
@@ -183,7 +165,7 @@ itemDef \
 	rect			(x+82) y 8 h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein" \
-	forecolor		0.4 0.8 1 0.15 \
+	forecolor		0.75 0.02 0.2 0.15 \
 } \
 itemDef \
 { \
@@ -192,17 +174,16 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_t" \
-	forecolor		0.4 0.8 1 0.25 \
+	forecolor		0.75 0.02 0.2 0.25 \
 } \
 itemDef \
 { \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
-	forecolor	0.4 0.8 1 1 \
+	forecolor	0.44 1 1 1 \
 	exp			text( itemName ) \
 	type		ITEM_TYPE_BUTTON \
-	textfont	UI_FONT_NORMAL \
-	textstyle	ITEM_TEXTSTYLE_SHADOWED \
+	textfont	UI_FONT_OBJECTIVE \
 	textalign	ITEM_ALIGN_LEFT \
 	textscale	0.38 \
 	textalignx	12 \
@@ -237,32 +218,24 @@ itemDef \
 	name			"button_default"id \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
-	background		"gradient_fadein_l" \
-	forecolor		0 0 0 .5 \
+	background		"cp_btn" \
+	forecolor		0.75 0.02 0.2 0.5 \
 } \
 itemDef \
 { \
 	visible			when ( cteam == "attack"); \
 	style			WINDOW_STYLE_SHADER \
-	rect			(x+100) (y+20) (h-20) (h-20) SURF_BUTTON_ALIGN \
+	rect			(x+100) (y+10) (h-20) (h-20) SURF_BUTTON_ALIGN \
 	exp				material( dvarString( "g_TeamIcon_Allies" ) ); \
-	forecolor		1 1 1 0.5 \
+	forecolor		1 1 1 0.2 \
 } \
 itemDef \
 { \
 	visible			when ( cteam == "defence"); \
 	style			WINDOW_STYLE_SHADER \
-	rect			(x+100) (y+20) (h-20) (h-20) SURF_BUTTON_ALIGN \
+	rect			(x+100) (y+10) (h-20) (h-20) SURF_BUTTON_ALIGN \
 	exp				material( dvarString( "g_TeamIcon_Axis" ) ); \
-	forecolor		1 1 1 0.5 \
-} \
-itemDef \
-{ \
-	visible			visArg \
-	name			"button_default"id \
-	rect			(x+90) y 2 h SURF_BUTTON_ALIGN \
-	style			WINDOW_STYLE_FILLED \
-	backcolor		1 1 1 0.8 \
+	forecolor		1 1 1 0.2 \
 } \
 itemDef \
 { \
@@ -271,7 +244,7 @@ itemDef \
 	rect			(x+82) y 8 h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein" \
-	forecolor		0.4 0.8 1 0.15 \
+	forecolor		0.75 0.02 0.2 0.15 \
 } \
 itemDef \
 { \
@@ -280,21 +253,20 @@ itemDef \
 	rect			(x+90) y w h SURF_BUTTON_ALIGN \
 	style			WINDOW_STYLE_SHADER \
 	background		"gradient_fadein_t" \
-	forecolor		0.4 0.8 1 0.25 \
+	forecolor		0.75 0.02 0.2 0.25 \
 } \
 itemDef \
 { \
 	style		WINDOW_STYLE_FILLED \
 	rect		(x+90) y w h SURF_BUTTON_ALIGN \
-	forecolor	0.4 0.8 1 1 \
+	forecolor	0.44 1 1 1 \
 	exp			text( itemName ) \
 	type		ITEM_TYPE_BUTTON \
-	textfont	UI_FONT_NORMAL \
-	textstyle	ITEM_TEXTSTYLE_SHADOWED \
+	textfont	UI_FONT_OBJECTIVE \
 	textalign	ITEM_ALIGN_LEFT \
-	textscale	0.38 \
+	textscale	0.35 \
 	textalignx	12 \
-	textaligny	20 \
+	textaligny	70 \
 	visible		visArg \
 	mouseEnter \
 	{ \
@@ -314,5 +286,3 @@ itemDef \
 		itemAction \
 	} \
 }
-
-//===SETTINGS==============================================================================================================

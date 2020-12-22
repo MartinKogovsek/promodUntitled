@@ -71,7 +71,7 @@
 		CHOICE_MENU_TITLE( "CHOOSE CLASS" )
 
 		#define BACK_OPEN	;
-		#include "ui_mp/navcontrols.inc"
+		
 		#include "ui_mp/teamicon.inc"
 
 		CHOICE_HIGHLIGHT( 1, 1 )

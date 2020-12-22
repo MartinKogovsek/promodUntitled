@@ -8,7 +8,7 @@ startvote()
 	wait getDvarFloat("scr_intermission_time");
 	level.invoting=1; 	
 	level thread misc_scripts\music::endGameMusic();
-	level addVoteTimer(22);
+	//level addVoteTimer(22);
 	for(i=0;i<level.players.size;i++) 	 
 	{
 		player=level.players[i];                    
